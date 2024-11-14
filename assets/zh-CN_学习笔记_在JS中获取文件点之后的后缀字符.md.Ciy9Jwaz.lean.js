@@ -1,0 +1,5 @@
+import{_ as r,c as n,j as e,a as t,o as s}from"./chunks/framework.BaR4VHXY.js";const u=JSON.parse('{"title":"在JS中获取文件点之后的后缀字符","description":"","frontmatter":{"Created at":"2019-03-29T00:00:00.000Z","Last updated at":"2019-03-29T00:00:00.000Z","tags":["js"]},"headers":[],"relativePath":"zh-CN/学习笔记/在JS中获取文件点之后的后缀字符.md","filePath":"zh-CN/学习笔记/在JS中获取文件点之后的后缀字符.md","lastUpdated":null}'),l={name:"zh-CN/学习笔记/在JS中获取文件点之后的后缀字符.md"};function d(i,a,o,_,p,c){return s(),n("div",null,a[0]||(a[0]=[e("h1",{id:"在js中获取文件点之后的后缀字符",tabindex:"-1"},[t("在JS中获取文件点之后的后缀字符 "),e("a",{class:"header-anchor",href:"#在js中获取文件点之后的后缀字符","aria-label":'Permalink to "在JS中获取文件点之后的后缀字符"'},"​")],-1),e("h3",{id:"在js中获取文件点之后的后缀字符-1",tabindex:"-1"},[t("在JS中获取文件点之后的后缀字符 "),e("a",{class:"header-anchor",href:"#在js中获取文件点之后的后缀字符-1","aria-label":'Permalink to "在JS中获取文件点之后的后缀字符"'},"​")],-1),e("pre",null,[e("code",null,`var upFileName = $("#fileToUpload").val();
+var index1=upFileName.lastIndexOf(".");
+var index2=upFileName.length;
+var suffix=upFileName.substring(index1+1,index2);//后缀名
+`)],-1)]))}const f=r(l,[["render",d]]);export{u as __pageData,f as default};

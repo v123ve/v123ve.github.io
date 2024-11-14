@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaUtils | v123ve</title>
+    <meta name="description" content="思维垃圾">
+    <meta name="generator" content="VitePress v1.5.0">
+    <link rel="preload stylesheet" href="/assets/style.COtxG_wp.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CVivrEOL.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/theme.BgPG5jxD.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.BaR4VHXY.js">
+    <link rel="modulepreload" href="/assets/zh-CN_工作笔记_JavaUtils.md.ChHc03Z7.lean.js">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="keywords" content="思维垃圾">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-5d98c3a5><!--[--><!--]--><!--[--><span tabindex="-1" data-v-0f60ec36></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-0f60ec36> Skip to content </a><!--]--><!----><header class="VPNav" data-v-5d98c3a5 data-v-ae24b3ad><div class="VPNavBar" data-v-ae24b3ad data-v-6aa21345><div class="wrapper" data-v-6aa21345><div class="container" data-v-6aa21345><div class="title" data-v-6aa21345><div class="VPNavBarTitle" data-v-6aa21345 data-v-1168a8e4><a class="title" href="/" data-v-1168a8e4><!--[--><!--]--><!--[--><img class="VPImage logo" src="/v-logo.png" alt data-v-8426fc1a><!--]--><span data-v-1168a8e4>v123ve</span><!--[--><!--]--></a></div></div><div class="content" data-v-6aa21345><div class="content-body" data-v-6aa21345><!--[--><!--]--><div class="VPNavBarSearch search" data-v-6aa21345><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="搜索文档"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">搜索</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-6aa21345 data-v-dc692963><span id="main-nav-aria-label" class="visually-hidden" data-v-dc692963> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-dc692963 data-v-e56f3d57><!--[--><span data-v-e56f3d57>主页</span><!--]--></a><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-dc692963 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-cf11d7a2><span class="text" data-v-cf11d7a2><!----><span data-v-cf11d7a2>学习笔记</span><span class="vpi-chevron-down text-icon" data-v-cf11d7a2></span></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><div class="items" data-v-b98bc113><!--[--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/23%E7%A7%8D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F(6).html" data-v-35975db6><!--[--><span data-v-35975db6>23种设计模式(6)</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/annatation%E6%B3%A8%E8%A7%A3.html" data-v-35975db6><!--[--><span data-v-35975db6>annatation注解</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Apache%20Shiro.html" data-v-35975db6><!--[--><span data-v-35975db6>Apache Shiro</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/BinaryInsertSort.java.html" data-v-35975db6><!--[--><span data-v-35975db6>BinaryInsertSort.java</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/IOC%20%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC%EF%BC%88inversion%20of%20control%EF%BC%89.html" data-v-35975db6><!--[--><span data-v-35975db6>IOC 控制反转（inversion of control）</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-web%E5%B7%A5%E7%A8%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>java-web工程</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java%E7%9B%B8%E5%85%B3.html" data-v-35975db6><!--[--><span data-v-35975db6>java相关</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html" data-v-35975db6><!--[--><span data-v-35975db6>java高级特性</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jdbc.html" data-v-35975db6><!--[--><span data-v-35975db6>jdbc</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/linux.html" data-v-35975db6><!--[--><span data-v-35975db6>linux</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/mybatis.html" data-v-35975db6><!--[--><span data-v-35975db6>mybatis</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/myxml.html" data-v-35975db6><!--[--><span data-v-35975db6>myxml</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/nginx%E7%AE%80%E4%BB%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>nginx简介</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Redis.html" data-v-35975db6><!--[--><span data-v-35975db6>Redis</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/shell%E7%BC%96%E7%A8%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>shell编程</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/socket%20tcp%20udp.html" data-v-35975db6><!--[--><span data-v-35975db6>socket tcp udp</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Spring%20Boot.html" data-v-35975db6><!--[--><span data-v-35975db6>Spring Boot</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/spring%20mvc%20%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%B9%B6%E5%8F%91.html" data-v-35975db6><!--[--><span data-v-35975db6>spring mvc 多线程并发</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot.html" data-v-35975db6><!--[--><span data-v-35975db6>SpringBoot</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/springmvc%E7%9A%84%E9%85%8D%E7%BD%AE%EF%BC%9A.html" data-v-35975db6><!--[--><span data-v-35975db6>springmvc的配置：</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html" data-v-35975db6><!--[--><span data-v-35975db6>spring定时任务</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/spring%E7%AE%80%E4%BB%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>spring简介</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Swagger.html" data-v-35975db6><!--[--><span data-v-35975db6>Swagger</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/学习笔记/web.xml" data-v-35975db6><!--[--><span data-v-35975db6>web.xml</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Zookeeper.html" data-v-35975db6><!--[--><span data-v-35975db6>Zookeeper</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E4%BA%8C%E6%9C%9F.html" data-v-35975db6><!--[--><span data-v-35975db6>二期</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.html" data-v-35975db6><!--[--><span data-v-35975db6>代理模式</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E4%BD%BF%E7%94%A8Heritrix%20%E7%88%AC%E5%8F%96%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90.html" data-v-35975db6><!--[--><span data-v-35975db6>使用Heritrix 爬取网络资源</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%88%86%E5%B8%83%E5%BC%8F%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86.html" data-v-35975db6><!--[--><span data-v-35975db6>分布式微服务架构原理</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%88%86%E5%B8%83%E5%BC%8F%E6%90%9C%E7%B4%A2%E6%A1%86%E6%9E%B6ES.html" data-v-35975db6><!--[--><span data-v-35975db6>分布式搜索框架ES</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97kafka.html" data-v-35975db6><!--[--><span data-v-35975db6>分布式消息队列kafka</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%9B%9B%E5%A4%A7%E9%87%91%E5%88%9A.html" data-v-35975db6><!--[--><span data-v-35975db6>四大金刚</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%9C%A8JS%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E7%82%B9%E4%B9%8B%E5%90%8E%E7%9A%84%E5%90%8E%E7%BC%80%E5%AD%97%E7%AC%A6.html" data-v-35975db6><!--[--><span data-v-35975db6>在JS中获取文件点之后的后缀字符</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%A4%A7%E6%95%B0%E6%8D%AE.html" data-v-35975db6><!--[--><span data-v-35975db6>大数据</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%8E%92%E5%BA%8F.html" data-v-35975db6><!--[--><span data-v-35975db6>排序</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%8E%B7%E5%8F%96%E8%A1%8C%E6%94%BF%E5%8C%BA%E8%8C%83%E5%9B%B4.html" data-v-35975db6><!--[--><span data-v-35975db6>获取行政区范围</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%8F%B1%E5%BD%A2.html" data-v-35975db6><!--[--><span data-v-35975db6>菱形</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9A.html" data-v-35975db6><!--[--><span data-v-35975db6>进程和线程的区别：</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E9%9B%B6XML%E9%85%8D%E7%BD%AEss.html" data-v-35975db6><!--[--><span data-v-35975db6>零XML配置ss</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E9%9B%B6%E9%85%8D%E7%BD%AEssm%E6%A1%86%E6%9E%B6%E6%95%B4%E5%90%88.html" data-v-35975db6><!--[--><span data-v-35975db6>零配置ssm框架整合</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.html" data-v-35975db6><!--[--><span data-v-35975db6>面试经验</span><!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup active" data-v-dc692963 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-cf11d7a2><span class="text" data-v-cf11d7a2><!----><span data-v-cf11d7a2>工作笔记</span><span class="vpi-chevron-down text-icon" data-v-cf11d7a2></span></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><div class="items" data-v-b98bc113><!--[--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/ad-grid%E6%8C%89%E6%97%A0%E3%80%81%E7%AC%A6%E5%8F%B7%E3%80%81%E6%95%B0%E5%AD%97%E3%80%81%E5%AD%97%E6%AF%8D%E3%80%81%E4%B8%AD%E6%96%87%E6%8E%92%E5%BA%8F.html" data-v-35975db6><!--[--><span data-v-35975db6>ad-grid按无、符号、数字、字母、中文排序</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/CodeMirror.html" data-v-35975db6><!--[--><span data-v-35975db6>CodeMirror</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/content%E5%9B%BE%E6%A0%87%E5%BA%93.html" data-v-35975db6><!--[--><span data-v-35975db6>content图标库</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/CSS%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>CSS常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/CSS%E9%85%B7%E7%82%AB%E5%AE%9E%E7%8E%B0.html" data-v-35975db6><!--[--><span data-v-35975db6>CSS酷炫实现</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/Docker.html" data-v-35975db6><!--[--><span data-v-35975db6>Docker</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/dumi.html" data-v-35975db6><!--[--><span data-v-35975db6>dumi</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/easy-ui%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>easy-ui常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/ES6%E5%A4%9A%E7%BB%A7%E6%89%BF.html" data-v-35975db6><!--[--><span data-v-35975db6>ES6多继承</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/idea%E8%AE%BE%E7%BD%AE%E6%95%99%E7%A8%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>idea设置教程</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/iframe%E8%B7%A8%E5%9F%9F.html" data-v-35975db6><!--[--><span data-v-35975db6>iframe跨域</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link active" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/JavaUtils.html" data-v-35975db6><!--[--><span data-v-35975db6>JavaUtils</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/java%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>java常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/js%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>js常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/js%E7%94%9F%E6%88%90%E6%A0%91.html" data-v-35975db6><!--[--><span data-v-35975db6>js生成树</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/less.html" data-v-35975db6><!--[--><span data-v-35975db6>less</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/listary%E9%9B%86%E6%88%90everything.html" data-v-35975db6><!--[--><span data-v-35975db6>listary集成everything</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/lodash.html" data-v-35975db6><!--[--><span data-v-35975db6>lodash</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/mock%E7%A4%BA%E4%BE%8B.html" data-v-35975db6><!--[--><span data-v-35975db6>mock示例</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/nginx%E4%B8%8D%E7%BC%93%E5%AD%98%E8%AE%BE%E7%BD%AE.html" data-v-35975db6><!--[--><span data-v-35975db6>nginx不缓存设置</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/nginx%E6%AD%A3%E5%88%99%E5%8F%96%E5%8F%8D.html" data-v-35975db6><!--[--><span data-v-35975db6>nginx正则取反</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/NodeJs%E5%92%8CWebPack.html" data-v-35975db6><!--[--><span data-v-35975db6>NodeJs和WebPack</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/React%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>React常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/React%E9%AB%98%E7%BA%A7.html" data-v-35975db6><!--[--><span data-v-35975db6>React高级</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/samba.html" data-v-35975db6><!--[--><span data-v-35975db6>samba</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/Sql%E7%9B%B8%E5%85%B3.html" data-v-35975db6><!--[--><span data-v-35975db6>Sql相关</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/umi2_pnpm.html" data-v-35975db6><!--[--><span data-v-35975db6>umi2_pnpm</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/VideoCommon.html" data-v-35975db6><!--[--><span data-v-35975db6>VideoCommon</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/VSCode.html" data-v-35975db6><!--[--><span data-v-35975db6>VSCode</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/Webpack%E4%BB%A3%E7%A0%81%E6%B7%B7%E6%B7%86.html" data-v-35975db6><!--[--><span data-v-35975db6>Webpack代码混淆</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/WebSocket.html" data-v-35975db6><!--[--><span data-v-35975db6>WebSocket</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/windows%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.html" data-v-35975db6><!--[--><span data-v-35975db6>windows常用操作</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%88%9B%E5%BB%BAoffer.html" data-v-35975db6><!--[--><span data-v-35975db6>创建offer</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2.html" data-v-35975db6><!--[--><span data-v-35975db6>前端开发环境部署</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%8A%A0%E5%AF%86%E8%A7%A3%E5%AF%86.html" data-v-35975db6><!--[--><span data-v-35975db6>加密解密</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%8F%89%E5%8F%B7.html" data-v-35975db6><!--[--><span data-v-35975db6>叉号</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%8F%8C%E5%87%BB%E5%A4%84%E7%90%86.html" data-v-35975db6><!--[--><span data-v-35975db6>双击处理</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%90%91%E9%87%8F%E5%8F%89%E4%B9%98.html" data-v-35975db6><!--[--><span data-v-35975db6>向量叉乘</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%93%8D%E5%BA%94%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%9C%E7%94%A8%E4%B8%8E%E5%AE%9E%E7%8E%B0.html" data-v-35975db6><!--[--><span data-v-35975db6>响应系统的作用与实现</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%A5%87%E5%81%B6%E5%B2%B8%E8%BE%B9.html" data-v-35975db6><!--[--><span data-v-35975db6>奇偶岸边</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E5%AE%89%E8%A3%85.html" data-v-35975db6><!--[--><span data-v-35975db6>安装</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E6%8E%92%E5%BA%8F%E5%92%8C%E6%A0%91.html" data-v-35975db6><!--[--><span data-v-35975db6>排序和树</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD.html" data-v-35975db6><!--[--><span data-v-35975db6>文件下载</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E6%B8%B2%E6%9F%93%E5%99%A8%E5%92%8CDiff%E7%AE%97%E6%B3%95.html" data-v-35975db6><!--[--><span data-v-35975db6>渲染器和Diff算法</span><!--]--></a></div><!--]--><!--[--><div class="VPMenuLink" data-v-b98bc113 data-v-35975db6><a class="VPLink link" href="/zh-CN/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/%E7%94%9F%E6%88%90%E9%A5%BC%E7%8A%B6%E5%9B%BE.html" data-v-35975db6><!--[--><span data-v-35975db6>生成饼状图</span><!--]--></a></div><!--]--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--[--><div class="VPFlyout VPNavBarMenuGroup" data-v-dc692963 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" data-v-cf11d7a2><span class="text" data-v-cf11d7a2><!----><span data-v-cf11d7a2>记录笔记</span><span class="vpi-chevron-down text-icon" data-v-cf11d7a2></span></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><div class="items" data-v-b98bc113><!--[--><!--]--></div><!--[--><!--]--></div></div></div><!--]--><!--]--></nav><div class="VPFlyout VPNavBarTranslations translations" data-v-6aa21345 data-v-88af2de4 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language" data-v-cf11d7a2><span class="text" data-v-cf11d7a2><span class="vpi-languages option-icon" data-v-cf11d7a2></span><!----><span class="vpi-chevron-down text-icon" data-v-cf11d7a2></span></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><!----><!--[--><!--[--><div class="items" data-v-88af2de4><p class="title" data-v-88af2de4>简体中文</p><!--[--><div class="VPMenuLink" data-v-88af2de4 data-v-35975db6><a class="VPLink link active" href="/zh-CN/工作笔记/JavaUtils.html" data-v-35975db6><!--[--><span data-v-35975db6>English</span><!--]--></a></div><!--]--></div><!--]--><!--]--></div></div></div><div class="VPNavBarAppearance appearance" data-v-6aa21345 data-v-6c893767><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-6c893767 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-6aa21345 data-v-0394ad82 data-v-7bc22406><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-7bc22406 data-v-bd121fe5><span class="vpi-social-github"></span></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-6aa21345 data-v-bb2aa2f0 data-v-cf11d7a2><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-cf11d7a2><span class="vpi-more-horizontal icon" data-v-cf11d7a2></span></button><div class="menu" data-v-cf11d7a2><div class="VPMenu" data-v-cf11d7a2 data-v-b98bc113><!----><!--[--><!--[--><div class="group translations" data-v-bb2aa2f0><p class="trans-title" data-v-bb2aa2f0>简体中文</p><!--[--><div class="VPMenuLink" data-v-bb2aa2f0 data-v-35975db6><a class="VPLink link active" href="/zh-CN/工作笔记/JavaUtils.html" data-v-35975db6><!--[--><span data-v-35975db6>English</span><!--]--></a></div><!--]--></div><div class="group" data-v-bb2aa2f0><div class="item appearance" data-v-bb2aa2f0><p class="label" data-v-bb2aa2f0>主题</p><div class="appearance-action" data-v-bb2aa2f0><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title aria-checked="false" data-v-bb2aa2f0 data-v-5337faa4 data-v-1d5665e3><span class="check" data-v-1d5665e3><span class="icon" data-v-1d5665e3><!--[--><span class="vpi-sun sun" data-v-5337faa4></span><span class="vpi-moon moon" data-v-5337faa4></span><!--]--></span></span></button></div></div></div><div class="group" data-v-bb2aa2f0><div class="item social-links" data-v-bb2aa2f0><div class="VPSocialLinks social-links-list" data-v-bb2aa2f0 data-v-7bc22406><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-7bc22406 data-v-bd121fe5><span class="vpi-social-github"></span></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-6aa21345 data-v-e5dd9c1c><span class="container" data-v-e5dd9c1c><span class="top" data-v-e5dd9c1c></span><span class="middle" data-v-e5dd9c1c></span><span class="bottom" data-v-e5dd9c1c></span></span></button></div></div></div></div><div class="divider" data-v-6aa21345><div class="divider-line" data-v-6aa21345></div></div></div><!----></header><div class="VPLocalNav empty fixed" data-v-5d98c3a5 data-v-a6f0e41e><div class="container" data-v-a6f0e41e><!----><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-a6f0e41e data-v-17a5e62e><button data-v-17a5e62e>返回顶部</button><!----></div></div></div><!----><div class="VPContent" id="VPContent" data-v-5d98c3a5 data-v-1428d186><div class="VPDoc has-aside" data-v-1428d186 data-v-39a288b8><!--[--><!--]--><div class="container" data-v-39a288b8><div class="aside" data-v-39a288b8><div class="aside-curtain" data-v-39a288b8></div><div class="aside-container" data-v-39a288b8><div class="aside-content" data-v-39a288b8><div class="VPDocAside" data-v-39a288b8 data-v-3f215769><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-3f215769 data-v-a5bbad30><div class="content" data-v-a5bbad30><div class="outline-marker" data-v-a5bbad30></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-a5bbad30>目录</div><ul class="VPDocOutlineItem root" data-v-a5bbad30 data-v-b933a997><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-3f215769></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-39a288b8><div class="content-container" data-v-39a288b8><!--[--><!--]--><main class="main" data-v-39a288b8><div style="position:relative;" class="vp-doc _zh-CN_%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0_JavaUtils" data-v-39a288b8><div><h1 id="javautils" tabindex="-1">JavaUtils <a class="header-anchor" href="#javautils" aria-label="Permalink to &quot;JavaUtils&quot;">​</a></h1><h4 id="javautils-1" tabindex="-1">JavaUtils <a class="header-anchor" href="#javautils-1" aria-label="Permalink to &quot;JavaUtils&quot;">​</a></h4><h4 id="dateutil" tabindex="-1">DateUtil <a class="header-anchor" href="#dateutil" aria-label="Permalink to &quot;DateUtil&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+/**
+ * 日期时间工具类
+ * 
+ * @author sunflower
+ * 
+ */
+public class DateUtils{
+	private static final SimpleDateFormat datetimeFormat = new SimpleDateFormat(
+			&quot;yyyy-MM-dd HH:mm:ss&quot;);
+	private static final SimpleDateFormat dateFormat = new SimpleDateFormat(
+			&quot;yyyy-MM-dd&quot;);
+	private static final SimpleDateFormat timeFormat = new SimpleDateFormat(
+			&quot;HH:mm:ss&quot;);
+	private static final SimpleDateFormat timeFormat2 = new SimpleDateFormat(
+			&quot;yyyyMMddHHmmss&quot;);
+	private static final SimpleDateFormat timeFormatYMD = new SimpleDateFormat(
+			&quot;yyyyMMdd&quot;);
+	/**
+	 * 获得当前日期时间
+	 * &lt;p&gt;
+	 * 日期时间格式yyyy-MM-dd HH:mm:ss
+	 * 
+	 * @return
+	 */
+	public static String currentDatetime() {
+		return datetimeFormat.format(now());
+	}
+	/**
+	 * 格式化日期时间
+	 * &lt;p&gt;
+	 * 日期时间格式yyyy-MM-dd HH:mm:ss
+	 * 
+	 * @return
+	 */
+	public static String formatDatetime(Date date) {
+		return datetimeFormat.format(date);
+	}
+	/**
+	 * 格式化日期时间
+	 * 
+	 * @param date
+	 * @param pattern
+	 *            格式化模式，详见{@link SimpleDateFormat}构造器
+	 *            &lt;code&gt;SimpleDateFormat(String pattern)&lt;/code&gt;
+	 * @return
+	 */
+	public static String formatDatetime(Date date, String pattern) {
+		SimpleDateFormat customFormat = (SimpleDateFormat) datetimeFormat
+				.clone();
+		customFormat.applyPattern(pattern);
+		return customFormat.format(date);
+	}
+	/**
+	 * 获得当前日期
+	 * &lt;p&gt;
+	 * 日期格式yyyy-MM-dd
+	 * 
+	 * @return
+	 */
+	public static String currentDate() {
+		return dateFormat.format(now());
+	}
+	/**
+	 * 格式化日期
+	 * &lt;p&gt;
+	 * 日期格式yyyy-MM-dd
+	 * 
+	 * @return
+	 */
+	public static String formatDate(Date date) {
+		return dateFormat.format(date);
+	}
+	/**
+	 * 获得当前时间
+	 * &lt;p&gt;
+	 * 时间格式HH:mm:ss
+	 * 
+	 * @return
+	 */
+	public static String currentTime() {
+		return timeFormat.format(now());
+	}
+	/**
+	 * 格式化时间
+	 * &lt;p&gt;
+	 * 时间格式HH:mm:ss
+	 * 
+	 * @return
+	 */
+	public static String formatTime(Date date) {
+		return timeFormat.format(date);
+	}
+	public static String formatTime2(Date date) {
+		return timeFormat2.format(date);
+	}
+	public static String formatTimeYMD(Date date) {
+		return timeFormatYMD.format(date);
+	}
+	/**
+	 * 获得当前时间的&lt;code&gt;java.util.Date&lt;/code&gt;对象
+	 * 
+	 * @return
+	 */
+	public static Date now() {
+		return new Date();
+	}
+	public static Calendar calendar() {
+		Calendar cal = GregorianCalendar.getInstance(Locale.CHINESE);
+		cal.setFirstDayOfWeek(Calendar.MONDAY);
+		return cal;
+	}
+	/**
+	 * 获得当前时间的毫秒数
+	 * &lt;p&gt;
+	 * 详见{@link System#currentTimeMillis()}
+	 * 
+	 * @return
+	 */
+	public static long millis() {
+		return System.currentTimeMillis();
+	}
+	/**
+	 * 
+	 * 获得当前Chinese月份
+	 * 
+	 * @return
+	 */
+	public static int month() {
+		return calendar().get(Calendar.MONTH) + 1;
+	}
+	/**
+	 * 获得月份中的第几天
+	 * 
+	 * @return
+	 */
+	public static int dayOfMonth() {
+		return calendar().get(Calendar.DAY_OF_MONTH);
+	}
+	/**
+	 * 今天是星期的第几天
+	 * 
+	 * @return
+	 */
+	public static int dayOfWeek() {
+		return calendar().get(Calendar.DAY_OF_WEEK);
+	}
+	/**
+	 * 今天是年中的第几天
+	 * 
+	 * @return
+	 */
+	public static int dayOfYear() {
+		return calendar().get(Calendar.DAY_OF_YEAR);
+	}
+	/**
+	 *判断原日期是否在目标日期之前
+	 * 
+	 * @param src
+	 * @param dst
+	 * @return
+	 */
+	public static boolean isBefore(Date src, Date dst) {
+		return src.before(dst);
+	}
+	/**
+	 *判断原日期是否在目标日期之后
+	 * 
+	 * @param src
+	 * @param dst
+	 * @return
+	 */
+	public static boolean isAfter(Date src, Date dst) {
+		return src.after(dst);
+	}
+	/**
+	 *判断两日期是否相同
+	 * 
+	 * @param date1
+	 * @param date2
+	 * @return
+	 */
+	public static boolean isEqual(Date date1, Date date2) {
+		return date1.compareTo(date2) == 0;
+	}
+	/**
+	 * 判断某个日期是否在某个日期范围
+	 * 
+	 * @param beginDate
+	 *            日期范围开始
+	 * @param endDate
+	 *            日期范围结束
+	 * @param src
+	 *            需要判断的日期
+	 * @return
+	 */
+	public static boolean between(Date beginDate, Date endDate, Date src) {
+		return beginDate.before(src) &amp;&amp; endDate.after(src);
+	}
+	/**
+	 * 获得当前月的最后一天
+	 * &lt;p&gt;
+	 * HH:mm:ss为0，毫秒为999
+	 * 
+	 * @return
+	 */
+	public static Date lastDayOfMonth() {
+		Calendar cal = calendar();
+		cal.set(Calendar.DAY_OF_MONTH, 0); // M月置零
+		cal.set(Calendar.HOUR_OF_DAY, 0);// H置零
+		cal.set(Calendar.MINUTE, 0);// m置零
+		cal.set(Calendar.SECOND, 0);// s置零
+		cal.set(Calendar.MILLISECOND, 0);// S置零
+		cal.set(Calendar.MONTH, cal.get(Calendar.MONTH) + 1);// 月份+1
+		cal.set(Calendar.MILLISECOND, -1);// 毫秒-1
+		return cal.getTime();
+	}
+	/**
+	 * 获得当前月的第一天
+	 * &lt;p&gt;
+	 * HH:mm:ss SS为零
+	 * 
+	 * @return
+	 */
+	public static Date firstDayOfMonth() {
+		Calendar cal = calendar();
+		cal.set(Calendar.DAY_OF_MONTH, 1); // M月置1
+		cal.set(Calendar.HOUR_OF_DAY, 0);// H置零
+		cal.set(Calendar.MINUTE, 0);// m置零
+		cal.set(Calendar.SECOND, 0);// s置零
+		cal.set(Calendar.MILLISECOND, 0);// S置零
+		return cal.getTime();
+	}
+	private static Date weekDay(int week) {
+		Calendar cal = calendar();
+		cal.set(Calendar.DAY_OF_WEEK, week);
+		return cal.getTime();
+	}
+	/**
+	 * 获得周五日期
+	 * &lt;p&gt;
+	 * 注：日历工厂方法{@link #calendar()}设置类每个星期的第一天为Monday，US等每星期第一天为sunday
+	 * 
+	 * @return
+	 */
+	public static Date friday() {
+		return weekDay(Calendar.FRIDAY);
+	}
+	/**
+	 * 获得周六日期
+	 * &lt;p&gt;
+	 * 注：日历工厂方法{@link #calendar()}设置类每个星期的第一天为Monday，US等每星期第一天为sunday
+	 * 
+	 * @return
+	 */
+	public static Date saturday() {
+		return weekDay(Calendar.SATURDAY);
+	}
+	/**
+	 * 获得周日日期
+	 * &lt;p&gt;
+	 * 注：日历工厂方法{@link #calendar()}设置类每个星期的第一天为Monday，US等每星期第一天为sunday
+	 * 
+	 * @return
+	 */
+	public static Date sunday() {
+		return weekDay(Calendar.SUNDAY);
+	}
+	/**
+	 * 将字符串日期时间转换成java.util.Date类型
+	 * &lt;p&gt;
+	 * 日期时间格式yyyy-MM-dd HH:mm:ss
+	 * 
+	 * @param datetime
+	 * @return
+	 */
+	public static Date parseDatetime(String datetime) throws ParseException {
+		return datetimeFormat.parse(datetime);
+	}
+	/**
+	 * 将字符串日期转换成java.util.Date类型
+	 *&lt;p&gt;
+	 * 日期时间格式yyyy-MM-dd
+	 * 
+	 * @param date
+	 * @return
+	 * @throws ParseException
+	 */
+	public static Date parseDate(String date) throws ParseException {
+		return dateFormat.parse(date);
+	}
+	/**
+	 * 将字符串日期转换成java.util.Date类型
+	 *&lt;p&gt;
+	 * 时间格式 HH:mm:ss
+	 * 
+	 * @param time
+	 * @return
+	 * @throws ParseException
+	 */
+	public static Date parseTime(String time) throws ParseException {
+		return timeFormat.parse(time);
+	}
+	/**
+	 * 根据自定义pattern将字符串日期转换成java.util.Date类型
+	 * 
+	 * @param datetime
+	 * @param pattern
+	 * @return
+	 * @throws ParseException
+	 */
+	public static Date parseDatetime(String datetime, String pattern)
+			throws ParseException {
+		SimpleDateFormat format = (SimpleDateFormat) datetimeFormat.clone();
+		format.applyPattern(pattern);
+		return format.parse(datetime);
+	}
+	/**
+	 * 获得昨天
+	 * 
+	 * @return
+	 */
+	public static Date yesterDay() {
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.DATE,-1);
+		return cal.getTime();
+	}
+	public static void main(String[] args) {
+		 String date = DateUtils.formatTimeYMD(DateUtils.yesterDay());
+		 System.out.println(date);
+	}
+}
+</code></pre><h4 id="fileutil" tabindex="-1">FileUtil <a class="header-anchor" href="#fileutil" aria-label="Permalink to &quot;FileUtil&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.channels.FileChannel.MapMode;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.UUID;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
+@SuppressWarnings(&quot;restriction&quot;)
+public class FileUtils {
+	private static Logger logger = Logger.getLogger(FileUtils.class);
+	public static String NGINX_HOME = &quot;NGINX_IMAGES_HOME&quot;;
+	// 上传头像
+	public String upload_images(String dir, File file, String fileFileName, String fileContentType) {
+		try {
+			// 删除之前的文件夹
+			// (new File(dir+dir2)).delete();
+			InputStream in = new FileInputStream(file);
+			// String dir =&quot;d://blackImg/&quot;;
+			File fileLocation = new File(dir);
+			// 此处也可以在应用根目录手动建立目标上传目录
+			if (!fileLocation.exists()) {
+				fileLocation.mkdir();
+			}
+			// String fileName=this.getFileFileName();
+			File uploadFile = new File(dir, fileFileName);
+			OutputStream out = new FileOutputStream(uploadFile);
+			byte[] buffer = new byte[1024 * 1024];
+			int length;
+			while ((length = in.read(buffer)) &gt; 0) {
+				out.write(buffer, 0, length);
+			}
+			in.close();
+			out.close();
+			return fileFileName;
+		} catch (Exception ex) {
+			logger.error(&quot;文件上传失败,&quot;, ex);
+			System.out.println(&quot;上传失败!&quot;);
+			ex.printStackTrace();
+			return null;
+		}
+	}
+	// 将url转化为base64格式
+	public static String GetImageStrFromPath(String imgPath) {
+		InputStream in = null;
+		byte[] data = null;
+		// 读取图片字节数组
+		try {
+			in = new FileInputStream(imgPath);
+			data = new byte[in.available()];
+			in.read(data);
+			in.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		// 对字节数组Base64编码
+		BASE64Encoder encoder = new BASE64Encoder();
+		// 返回Base64编码过的字节数组字符串
+		return encoder.encode(data);
+	}
+	public static void copyCapTurePic(String src, String target) {
+		FileInputStream fis = null;
+		FileOutputStream fos = null;
+		FileChannel inFiC = null;
+		FileChannel outFoC = null;
+		int length = 2097152;
+		try {
+			fis = new FileInputStream(src);
+			fos = new FileOutputStream(target);
+			inFiC = fis.getChannel();
+			outFoC = fos.getChannel();
+			long startTime = System.currentTimeMillis();
+			while (inFiC.position() != inFiC.size()) {
+				if ((inFiC.size() - inFiC.position()) &lt; length) {
+					length = (int) (inFiC.size() - inFiC.position());
+				}
+				MappedByteBuffer inbuffer = inFiC.map(MapMode.READ_ONLY, inFiC.position(), length);
+				outFoC.write(inbuffer);
+				inFiC.position(inFiC.position() + length);
+			}
+			long EndTime = System.currentTimeMillis();
+			System.out.print(&quot;nioMappedCopy用了毫秒数：&quot;);
+			System.out.println(EndTime - startTime);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (outFoC != null) {
+					outFoC.close();
+				}
+				if (inFiC != null) {
+					inFiC.close();
+				}
+				if (fos != null) {
+					fos.close();
+				}
+				if (fis != null) {
+					fis.close();
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	@SuppressWarnings(&quot;static-access&quot;)
+	public static String fileUpload(String cardno, String base64Str, String path) {
+		String filename = new DateUtils().formatTime2(new Date()) + &quot;_&quot; + cardno + &quot;.png&quot;;
+		path = path + &quot;Img_link/captureImg/&quot;;
+		// path=&quot;D://black/&quot;;
+		// 去掉前面的data:image/png;base64,
+		if (base64Str.indexOf(&quot;data:image/png;base64,&quot;) != -1) {
+			base64Str = base64Str.replace(&quot;data:image/png;base64,&quot;, &quot;&quot;);
+		}
+		BASE64Decoder decoder = new BASE64Decoder();
+		FileOutputStream out = null;
+		try {
+			// Base64解码
+			byte[] b = decoder.decodeBuffer(base64Str);
+			for (int i = 0; i &lt; b.length; ++i) {
+				if (b[i] &lt; 0) {// 调整异常数据
+					b[i] += 256;
+				}
+			}
+			File dir = new File(path);
+			// 如果这个目录不存在，则创建它。
+			if (!dir.exists())
+				dir.mkdir();
+			path = path + filename;
+			out = new FileOutputStream(path);
+			out.write(b);
+			out.flush();
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		} finally {
+			if (null != out) {
+				try {
+					out.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return (&quot;captureImg/&quot; + filename);
+	}
+	// 图片复制
+	public static void copyFile(String src, String target) {
+		File srcFile = new File(src);
+		File targetFile = new File(target);
+		try {
+			InputStream in = new FileInputStream(srcFile);
+			OutputStream out = new FileOutputStream(targetFile);
+			byte[] bytes = new byte[1024];
+			int len = -1;
+			while ((len = in.read(bytes)) != -1) {
+				out.write(bytes, 0, len);
+			}
+			in.close();
+			out.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println(&quot;文件复制成功&quot;);
+	}
+	// 文件下载
+	public static String downloadFile(File file, String fileName, String target) {
+		String filePath = &quot;&quot;;
+		File targetFile = new File(target);
+		if (!targetFile.exists()) {
+			targetFile.mkdirs();
+		}
+		try {
+			InputStream in = new FileInputStream(file);
+			OutputStream out = new FileOutputStream(target + fileName);
+			byte[] bytes = new byte[1024];
+			int len = -1;
+			while ((len = in.read(bytes)) != -1) {
+				out.write(bytes, 0, len);
+			}
+			in.close();
+			out.close();
+			filePath = target + fileName;
+			logger.info(&quot;文件下载成功,文件路径:&quot; + filePath);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return filePath;
+	}
+	// 保存多张图片
+	@SuppressWarnings(&quot;static-access&quot;)
+	public static List&lt;String&gt; upLoadPics(File[] files, String dir, String fileContentType) {
+		List&lt;String&gt; urlList = new ArrayList&lt;String&gt;();
+		try {
+			if (files != null &amp;&amp; files.length &gt; 0) {
+				for (int i = 0; i &lt; files.length; i++) {
+					File file = files[i];
+					// 保存文件
+					String fileName = new DateUtils().formatTime2(new Date()) + &quot;.png&quot;;
+					String path = new FileUtils().upload_images(dir, file, fileName, fileContentType);
+					logger.info(&quot;上传后的图片路径：&quot; + path);
+					if (path == null) {
+						logger.error(&quot;第&quot; + i + 1 + &quot;张图片上传失败&quot;);
+					} else {
+						// 记录url
+						urlList.add(path);
+					}
+				}
+			}
+		} catch (Exception e) {
+			logger.error(&quot;批量上传图片异常，异常信息：&quot; + e);
+			urlList = null;
+			e.printStackTrace();
+		}
+		return urlList;
+	}
+	/**
+	 * 将Base64位编码的图片进行解码，并保存到指定目录
+	 * 
+	 * @param base64
+	 *            base64编码的图片信息
+	 * @return
+	 */
+	public static String decodeBase64ToImage(String base64, String path, String imgName) {
+		logger.info(&quot;接收到base64解码并上传文件的请求,请求参数:解码前内容【&quot; + base64 + &quot;】,文件路径【&quot; + path + &quot;】,文件名【&quot; + imgName + &quot;】&quot;);
+		String imgUrl = null;
+		BASE64Decoder decoder = new BASE64Decoder();
+		try {
+			File file = new File(path);
+			// 如果这个目录不存在，则创建它。
+			if (!file.exists()) {
+				file.mkdirs();
+			}
+			// 创建文件
+			File uploadFile = new File(file, imgName);
+			FileOutputStream write = new FileOutputStream(uploadFile);
+			byte[] decoderBytes = decoder.decodeBuffer(base64);
+			write.write(decoderBytes);
+			imgUrl = path + imgName;
+			write.close();
+		} catch (IOException e) {
+			logger.error(&quot;base64解码并上传文件异常,异常信息:&quot; + e);
+			e.printStackTrace();
+		}
+		logger.info(&quot;解码并上传文件成功,返回文件地址【&quot; + imgUrl + &quot;】&quot;);
+		return imgUrl;
+	}
+	/**
+	 * @Title: getFileFormat
+	 * @Description: TODO(获取文件格式)
+	 * @param fileFileName
+	 * @return
+	 */
+	public static String getFileFormat(String fileFileName) {
+		String format = &quot;&quot;;
+		try {
+			format = fileFileName.substring(fileFileName.lastIndexOf(&quot;.&quot;), fileFileName.length());
+		} catch (Exception e) {
+			logger.error(&quot;获取文件格式失败&quot;, e);
+			// e.printStackTrace();
+		}
+		return format;
+	}
+	/**
+	 * 删除单个文件
+	 * 
+	 * @param fileName
+	 *            被删除文件的文件名
+	 * @return 单个文件删除成功返回true,否则返回false
+	 */
+	public static boolean deleteFile(String filePath) {
+		try {
+			File file = new File(filePath);
+			if (file.isFile() &amp;&amp; file.exists()) {
+				file.delete();
+				logger.info(&quot;删除单个文件&quot; + filePath + &quot;成功！&quot;);
+				return true;
+			} else {
+				logger.info(&quot;删除单个文件&quot; + filePath + &quot;失败！&quot;);
+				return false;
+			}
+		} catch (Exception e) {
+			logger.info(&quot;删除单个文件&quot; + filePath + &quot;失败！&quot;);
+			return false;
+		}
+	}
+	/**
+	 * 遍历所有文件，压缩
+	 *
+	 * @param file
+	 *            源文件目录
+	 * @param parentPath
+	 *            压缩文件目录
+	 * @param zos
+	 *            文件流
+	 */
+	public static void writeZip(File file, String parentPath, ZipOutputStream zos) {
+		if (file.isDirectory()) {
+			// 目录
+			parentPath += file.getName() + File.separator;
+			File[] files = file.listFiles();
+			for (File f : files) {
+				writeZip(f, parentPath, zos);
+			}
+		} else {
+			// 文件
+			try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file))) {
+				// 指定zip文件夹
+				ZipEntry zipEntry = new ZipEntry(parentPath + file.getName());
+				zos.putNextEntry(zipEntry);
+				int len;
+				byte[] buffer = new byte[1024 * 10];
+				while ((len = bis.read(buffer, 0, buffer.length)) != -1) {
+					zos.write(buffer, 0, len);
+					zos.flush();
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				throw new RuntimeException(e.getMessage(), e.getCause());
+			}
+		}
+	}
+	/**
+	 * 迭代删除文件夹
+	 * 
+	 * @param dirPath
+	 *            文件夹路径
+	 */
+	public static void deleteDir(String dirPath) {
+		int tryCount = 0;
+		try {
+			File file = new File(dirPath);
+			if (file.exists()) {
+				while (file.exists() &amp;&amp; tryCount++ &lt; 10) {
+					// 回收资源
+					System.gc();
+					// 存在则删除
+					if (file.isFile()) {
+						file.delete();
+					} else {
+						File[] files = file.listFiles();
+						if (files == null) {
+							file.delete();
+						} else {
+							for (int i = 0; i &lt; files.length; i++) {
+								deleteDir(files[i].getAbsolutePath());
+							}
+							file.delete();
+						}
+					}
+				}
+			} else {
+				logger.debug(&quot;要删除的文件不存在,dirPath:&quot; + dirPath);
+			}
+		} catch (Exception e) {
+			logger.error(&quot;删除文件夹失败,filePath:&quot; + dirPath);
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * @Title: getFileExbandedName
+	 * @Description: TODO(获取文件扩展名)
+	 * @return
+	 */
+	public static String getFileExbandedName(String fileName) {
+		String exbandedName = &quot;&quot;;
+		try {
+			exbandedName = fileName.substring(fileName.lastIndexOf(&quot;.&quot;));
+		} catch (Exception e) {
+			logger.error(&quot;获取文件扩展名失败&quot;, e);
+			e.printStackTrace();
+		}
+		return exbandedName;
+	}
+	/**
+	 * @Title: setFileName
+	 * @Description: TODO(设置文件名)
+	 * @param mapPicFileName
+	 * @return
+	 */
+	@SuppressWarnings(&quot;static-access&quot;)
+	public static String setFileName(String mapPicFileName) {
+		String newName = &quot;&quot;;
+		try {
+			String uuid = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;);
+			String exbandedName = getFileExbandedName(mapPicFileName);
+			if (StringUtils.isNotBlank(exbandedName)) {
+				newName = uuid + &quot;_&quot; + new DateUtils().formatTime2(new Date()) + exbandedName;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return newName;
+	}
+	/**
+	 * @Title: getEnvByKey
+	 * @Description: TODO(获取环境变量)
+	 * @return
+	 */
+	public static String getEnvByKey(String key) {
+		Map&lt;String, String&gt; map = System.getenv();
+		Iterator&lt;Entry&lt;String, String&gt;&gt; it = map.entrySet().iterator();
+		while (it.hasNext()) {
+			Entry&lt;String, String&gt; entry = (Entry&lt;String, String&gt;) it.next();
+			// logger.debug(entry.getKey());
+			System.out.println(entry.getKey());
+			if (entry.getKey().equals(key)) {
+				logger.info(entry.getKey() + &quot;=&quot;);
+				logger.info(entry.getValue());
+				return entry.getValue().toString();
+			}
+		}
+		logger.error(&quot;没有获取到&quot; + key + &quot;的环境变量&quot;);
+		return &quot;&quot;;
+	}
+}
+</code></pre><h4 id="jsonutil" tabindex="-1">JsonUtil <a class="header-anchor" href="#jsonutil" aria-label="Permalink to &quot;JsonUtil&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.util.List;
+import org.apache.log4j.Logger;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+public class JsonUtils {
+	private static Logger logger = Logger.getLogger(JsonUtils.class);
+	/**  
+	* @Title: parseStrToBeanList  
+	* @Description: TODO(json字符串转beanList)  
+	* @param jsonStr 形如：&quot;{&quot;key&quot;:[{&#39;key&#39;:&#39;value&#39;,&#39;key&#39;:&#39;value&#39;},{&#39;key&#39;:&#39;value&#39;,&#39;key&#39;:&#39;value&#39;}]}&quot;
+	* @param jsonKey
+	* @param clazz
+	* @return    
+	*/ 
+	@SuppressWarnings(&quot;static-access&quot;)
+	public static &lt;T&gt; List&lt;T&gt; parseStrToBeanList(String jsonStr, String jsonKey,Class&lt;T&gt; clazz){
+		List&lt;T&gt; list = null;
+		try {
+			JSONObject jsonObj = new JSONObject().parseObject(jsonStr);
+			String valueStr = jsonObj.get(jsonKey).toString();
+			list = JSONArray.parseArray(valueStr, clazz);
+		} catch (Exception e) {
+			logger.error(&quot;解析json字符串失败&quot;, e);
+//			e.printStackTrace();
+		}
+		return list;
+	}
+	/**  
+	* @Title: parseArray  
+	* @Description: TODO(json字符串转beanList)  
+	* @param jsonStr 形如：&quot;[{&#39;key&#39;:&#39;value&#39;,&#39;key&#39;:&#39;value&#39;},{&#39;key&#39;:&#39;value&#39;,&#39;key&#39;:&#39;value&#39;}]&quot;
+	* @param clazz
+	* @return    
+	*/ 
+	public static &lt;T&gt; List&lt;T&gt; parseArray(String jsonStr, Class&lt;T&gt; clazz){
+		List&lt;T&gt; list = null;
+		try {
+			list = JSONArray.parseArray(jsonStr, clazz);
+		} catch (Exception e) {
+			logger.error(&quot;解析json字符串失败&quot;, e);
+//			e.printStackTrace();
+		}
+		return list;
+	}
+}
+</code></pre><h4 id="jsonresult" tabindex="-1">JsonResult <a class="header-anchor" href="#jsonresult" aria-label="Permalink to &quot;JsonResult&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.Serializable;
+import java.util.HashMap;
+/*
+ * 之前的项目一般引用自己工程中独立的JsonResult类，但两者完全是一样的。
+ * 由于此类的普通使用，所以将其提取到kedacommon工程中，以后新的项目工程均应该直接引用此类
+ */
+/**
+ * 描述一个用于JSON规范的结果集。此类一般用于Web工程，定义一套数据交互规范。服务器将数据（对象）包装，在相应的处理层（比如Struts-json）将实例转换成JSON字符串
+ * ，再返回给客户端（浏览器），此规范常用于客户端AJAX请求的数据交互。
+ * 
+ * @author TaoPeng
+ * @referenceBy 基本所有的WEB工程都使用了此类。
+ */
+public class JsonResult implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private ResultConstant result;
+	/** 哈西表用来存放待返回的数据 */
+	private HashMap&lt;String, Object&gt; data = new HashMap&lt;String, Object&gt;();
+	/**
+	 * @deprecated 不建议直接获取全部属性。请使用{@link #getData(String)}
+	 * @return
+	 */
+	public HashMap&lt;String, Object&gt; getData() {
+		return data;
+	}
+	public Object getData(String key) {
+		return data != null ? data.get(key) : null;
+	}
+	public void addData(String key, Object value) {
+		data.put(key, value);
+	}
+	public ResultConstant getResult() {
+		return result;
+	}
+	public void setResult(ResultConstant result) {
+		this.result = result;
+	}
+	/**
+	 * 清楚所有数据
+	 */
+	public void clear(){
+		result = ResultConstant.SUCCESS_QUERY;
+		if(this.data != null){
+			this.data.clear();
+		}
+	}
+}
+</code></pre><h4 id="pageinfo" tabindex="-1">PageInfo <a class="header-anchor" href="#pageinfo" aria-label="Permalink to &quot;PageInfo&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.Serializable;
+import org.json.JSONException;
+import org.json.JSONObject;
+public class PageInfo implements Serializable {
+private static final long serialVersionUID = 1L;
+	/**
+	 * 升序
+	 */
+	public static final String ASC = &quot;asc&quot;;
+	/**
+	 * 降序
+	 */
+	public static final String DESC = &quot;desc&quot;;
+	public static final int maxPageSize = 1000;//返回的最大条数
+	/**页码，首页的值是1.*/
+	private int pageNumber = 1;
+	/**每页数量*/
+	private int pageSize = 10;
+	/**排序关键字段*/
+	private String sortName;
+	/**排序类型*/
+	private String sortOrder = &quot;asc&quot;;
+	/**总数*/
+	private int total = 0;
+	//总页数
+	private int pageCount;
+	public int getPageCount() {
+		return pageCount;
+	}
+	public void setPageCount(int pageCount) {
+		this.pageCount = pageCount;
+	}
+	public int getTotal() {
+		return total;
+	}
+	public void setTotal(int total) {
+		this.total = total;
+	}
+	/**
+	 * 返回页码，首页的值是1.
+	 * @return
+	 */
+	public int getPageNumber() {
+		return pageNumber;
+	}
+	/**
+	 * 设置页码，首页的值是1.
+	 * @param pageNumber
+	 */
+	public void setPageNumber(int pageNumber) {
+		this.pageNumber = pageNumber;
+	}
+	public int getPageSize() {
+		return pageSize;
+	}
+	/**
+	 * 设备每页数量
+	 * @param pageSize
+	 */
+	public void setPageSize(int pageSize) {
+		this.pageSize = pageSize;
+	}
+	public String getSortName() {
+		return sortName;
+	}
+	public void setSortName(String sortName) {
+		this.sortName = sortName;
+	}
+	public String getSortOrder() {
+		return sortOrder;
+	}
+	public void setSortOrder(String sortOrder) {
+		this.sortOrder = sortOrder;
+	}
+	public static PageInfo loadFromJson(JSONObject obj) throws JSONException {
+		if(obj == null)
+			return null;
+		PageInfo info = new PageInfo();
+		if(!obj.isNull(&quot;pageNumber&quot;))	
+			info.setPageNumber(obj.getInt(&quot;pageNumber&quot;));
+		if(!obj.isNull(&quot;pageSize&quot;))
+			info.setPageSize(obj.getInt(&quot;pageSize&quot;));
+		if(!obj.isNull(&quot;sortName&quot;))
+			info.setSortName(obj.getString(&quot;sortName&quot;));
+		if(!obj.isNull(&quot;sortOrder&quot;))
+			info.setSortOrder(obj.getString(&quot;sortOrder&quot;));
+		if(!obj.isNull(&quot;total&quot;))
+			info.setTotal(obj.getInt(&quot;total&quot;));
+		return info;
+	}
+	/**
+	 * 返回当前分页状态是否有下一页
+	 * @return
+	 */
+	public boolean hasNextPage(){
+		int total = this.total;
+		int pageSize = this.pageSize;
+	    pageCount =(int) Math.ceil( total / (float)pageSize);//总页数
+		return this.pageNumber &lt; pageCount;
+	}
+	/**
+	 * 当前页的开始索引号（含）。
+	 * @see #getEnd()
+	 * @return 索引号。第一条记录的索引号为0.
+	 */
+	public int getStart(){
+		pageCount = (int) Math.ceil( total / (float)pageSize);//总页数
+		if(pageNumber&gt;pageCount){
+			pageNumber = pageCount;
+		}
+		return (pageNumber-1) * pageSize;
+	}
+	/**
+	 * 当前页的开始索引号（含）。
+	 * @see #getEnd()
+	 * @return 索引号。第一条记录的索引号为0.
+	 */
+	public int getStartIndex(){
+		//在不获取total的情况下，用此方法
+		return (pageNumber-1) * pageSize;
+	}
+	/**
+	 * 当前页的结束索引号（含）。
+	 * @see #getStart()
+	 * @return 索引号。.
+	 */
+	public int getEnd(){
+		int start = getStart();
+		return start + pageSize - 1;
+	}
+	/**
+	 * 移动页码，指向当面页的下一页。
+	 */
+	public void nextPage(){
+		this.pageNumber ++;
+	}
+}
+</code></pre><h4 id="paramcheckutil" tabindex="-1">ParamCheckUtil <a class="header-anchor" href="#paramcheckutil" aria-label="Permalink to &quot;ParamCheckUtil&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+//参数检查工具类
+public class ParamCheckUtil {
+	//检查分页查询参数
+	public static boolean checkPageQueryParam( Integer pageSize,Integer pageNumber) {
+		if(pageSize==null ||&quot;&quot;.equals(pageSize) || pageNumber==null ||&quot;&quot;.equals(pageNumber)){
+			return false;
+		}
+		if (pageSize &gt; PageInfo.maxPageSize || pageSize &lt;= 0 || pageNumber &lt;= 0) {
+			return false;
+		}
+		return true;
+	}
+	public static boolean isEmpty(String str){
+		if(str==null ||&quot;&quot;.equals(str)){
+			return true;
+		}
+		return false;
+	}
+	public static void main(String[] args) {
+	}
+}
+</code></pre><h4 id="propertyreader" tabindex="-1">PropertyReader <a class="header-anchor" href="#propertyreader" aria-label="Permalink to &quot;PropertyReader&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Properties;
+import org.apache.log4j.Logger;
+public class PropertyReader {
+	 private static Logger logger = Logger.getLogger(PropertyReader.class);
+	/*
+	 * 获得数据库链接的配置文件
+	 */
+	public static Map&lt;String,String&gt; getProperties(){
+		logger.info(&quot;读取redis配置文件开始。。。&quot;);
+		 Properties prop = new Properties();     
+		 Map&lt;String,String&gt; proMap  = new HashMap&lt;String,String&gt;();
+		try {
+			 //读取属性文件redis.properties
+			InputStream in= PropertyReader.class.getClassLoader().getResourceAsStream(&quot;redis.properties&quot;);  
+			prop.load(in);     ///加载属性列表
+            Iterator&lt;String&gt; it=prop.stringPropertyNames().iterator();
+            while(it.hasNext()){
+                String key=it.next();
+                proMap.put(key, prop.getProperty(key));
+            }
+            in.close();
+            logger.info(&quot;读取redis配置文件成功。。。&quot;);
+		} catch (Exception e) {
+			logger.error(&quot;读取redis配置文件异常！&quot;, e);
+			e.printStackTrace();
+		}
+		return proMap;
+	}
+}
+</code></pre><h4 id="httpclientutils" tabindex="-1">HttpClientUtils <a class="header-anchor" href="#httpclientutils" aria-label="Permalink to &quot;HttpClientUtils&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InterruptedIOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TimerTask;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import javax.net.ssl.SSLException;
+import javax.net.ssl.SSLHandshakeException;
+import org.apache.commons.io.IOUtils;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpEntityEnclosingRequest;
+import org.apache.http.HttpHost;
+import org.apache.http.HttpRequest;
+import org.apache.http.NameValuePair;
+import org.apache.http.NoHttpResponseException;
+import org.apache.http.client.HttpRequestRetryHandler;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpRequestBase;
+import org.apache.http.client.protocol.HttpClientContext;
+import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.config.Registry;
+import org.apache.http.config.RegistryBuilder;
+import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.http.conn.routing.HttpRoute;
+import org.apache.http.conn.socket.ConnectionSocketFactory;
+import org.apache.http.conn.socket.LayeredConnectionSocketFactory;
+import org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.entity.ContentType;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.protocol.HttpContext;
+import org.apache.http.util.EntityUtils;
+import org.apache.log4j.Logger;
+import minyuantec.securitysystem.bean.HttpClientConfig;
+public class HttpClientUtils {
+	private final static Logger logger = Logger.getLogger(HttpClientUtils.class);
+	private static CloseableHttpClient httpClient;
+	private static PoolingHttpClientConnectionManager manager; // 连接池管理类
+	private static ScheduledExecutorService monitorExecutor; // 监控
+	private final static Object syncLock = new Object(); // 相当于线程锁,用于线程安全
+	private static final int CONNECT_TIMEOUT = HttpClientConfig.getHttpConnectTimeout();// 设置连接建立的超时时间为10s
+	private static final int SOCKET_TIMEOUT = HttpClientConfig.getHttpSocketTimeout();
+	private static final int MAX_CONN = HttpClientConfig.getHttpMaxPoolSize(); // 最大连接数
+	private static final int Max_PRE_ROUTE = HttpClientConfig.getHttpMaxPoolSize();
+	private static final int MAX_ROUTE = HttpClientConfig.getHttpMaxPoolSize();
+	public static String doPost(String url, Map&lt;String, String&gt; params) {
+		HttpPost httpPost = new HttpPost(url);
+		setRequestConfig(httpPost);
+		if (params != null) {
+			setPostParams(httpPost, params);
+		}
+		CloseableHttpResponse response = null;
+		InputStream in = null;
+		String result = null;
+		try {
+			response = getHttpClient(url).execute(httpPost, HttpClientContext.create());
+			HttpEntity entity = response.getEntity();
+			if (entity != null) {
+				in = entity.getContent();
+				result = IOUtils.toString(in, &quot;utf-8&quot;);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (in != null)
+					in.close();
+				if (response != null)
+					response.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+	/**
+	 * 设置post请求的参数
+	 * 
+	 * @param httpPost
+	 * @param params
+	 */
+	private static void setPostParams(HttpPost httpPost, Map&lt;String, String&gt; params) {
+		List&lt;NameValuePair&gt; nvps = new ArrayList&lt;NameValuePair&gt;();
+		Set&lt;String&gt; keys = params.keySet();
+		for (String key : keys) {
+			nvps.add(new BasicNameValuePair(key, params.get(key)));
+		}
+		try {
+			httpPost.setEntity(new UrlEncodedFormEntity(nvps, &quot;utf-8&quot;));
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+	}
+	public static String doPost(String url) {
+		return doPost(url, null);
+	}
+	public static String doPostJson(String url, String json) {
+		HttpPost httpPost = new HttpPost(url);
+		setRequestConfig(httpPost);
+		String resultString = &quot;&quot;;
+		CloseableHttpResponse response = null;
+		try {
+			// 创建请求内容
+			StringEntity entity = new StringEntity(json, ContentType.APPLICATION_JSON);
+			httpPost.setEntity(entity);
+			// 执行http请求
+			response = getHttpClient(url).execute(httpPost, HttpClientContext.create());
+			resultString = EntityUtils.toString(response.getEntity(), &quot;utf-8&quot;);
+		} catch (Exception e) {
+			logger.error(&quot;httpclient的post请求失败,url:&quot; + url, e);
+			// e.printStackTrace();
+		} finally {
+			try {
+				if (response != null)
+					response.close();
+			} catch (IOException e) {
+				logger.error(&quot;IOException的错误&quot;, e);
+				// e.printStackTrace();
+			}
+		}
+		return resultString;
+	}
+	public static String doGetJson(String url, String json) {
+		String resultString = &quot;&quot;;
+		CloseableHttpResponse response = null;
+		try {
+			// 创建Get请求
+			// HttpGet httpGet = new HttpGet(url + &quot;?&quot; + json);
+			HttpGet httpGet = new HttpGet(url);
+			setRequestConfig(httpGet);
+			// 执行http请求
+			response = getHttpClient(url).execute(httpGet, HttpClientContext.create());
+			resultString = EntityUtils.toString(response.getEntity(), &quot;utf-8&quot;);
+		} catch (Exception e) {
+			logger.error(&quot;httpclient的get请求失败,url:&quot; + url, e);
+			// e.printStackTrace();
+		} finally {
+			try {
+				if (response != null)
+					response.close();
+			} catch (IOException e) {
+				logger.error(&quot;IOException的错误&quot;, e);
+				// e.printStackTrace();
+			}
+		}
+		return resultString;
+	}
+	public static String doGet(String url, Map&lt;String, String&gt; param) {
+		// 创建Httpclient对象
+		CloseableHttpClient httpclient = HttpClients.createDefault();
+		String resultString = &quot;&quot;;
+		CloseableHttpResponse response = null;
+		try {
+			// 创建uri
+			URIBuilder builder = new URIBuilder(url);
+			if (param != null) {
+				for (String key : param.keySet()) {
+					builder.addParameter(key, param.get(key));
+				}
+			}
+			URI uri = builder.build();
+			// 创建http GET请求
+			HttpGet httpGet = new HttpGet(uri);
+			// 执行请求
+			response = getHttpClient(url).execute(httpGet, HttpClientContext.create());
+			// 判断返回状态是否为200
+			if (response.getStatusLine().getStatusCode() == 200) {
+				resultString = EntityUtils.toString(response.getEntity(), &quot;UTF-8&quot;);
+			}
+		} catch (Exception e) {
+			logger.error(&quot;httpclient的get请求失败,url:&quot; + url, e);
+			e.printStackTrace();
+		} finally {
+			try {
+				if (response != null) {
+					response.close();
+				}
+				httpclient.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return resultString;
+	}
+	public static String doGet(String url) {
+		return doGet(url, null);
+	}
+	/**
+	 * 对http请求进行基本设置
+	 * 
+	 * @param httpRequestBase
+	 *            http请求
+	 */
+	private static void setRequestConfig(HttpRequestBase httpRequestBase) {
+		RequestConfig requestConfig = RequestConfig.custom().setConnectionRequestTimeout(CONNECT_TIMEOUT)
+				.setConnectTimeout(CONNECT_TIMEOUT).setSocketTimeout(SOCKET_TIMEOUT).build();
+		httpRequestBase.setConfig(requestConfig);
+	}
+	public static CloseableHttpClient getHttpClient(String url) {
+		String hostName = url.split(&quot;/&quot;)[2];
+		// System.out.println(hostName);
+		int port = 80;
+		if (hostName.contains(&quot;:&quot;)) {
+			String[] args = hostName.split(&quot;:&quot;);
+			hostName = args[0];
+			port = Integer.parseInt(args[1]);
+		}
+		if (httpClient == null) {
+			// 多线程下多个线程同时调用getHttpClient容易导致重复创建httpClient对象的问题,所以加上了同步锁
+			synchronized (syncLock) {
+				if (httpClient == null) {
+					httpClient = createHttpClient(hostName, port);
+					// 开启监控线程,对异常和空闲线程进行关闭
+					monitorExecutor = Executors.newScheduledThreadPool(1);
+					monitorExecutor.scheduleAtFixedRate(new TimerTask() {
+						@Override
+						public void run() {
+							// 关闭异常连接
+							manager.closeExpiredConnections();
+							// 关闭5s空闲的连接
+							manager.closeIdleConnections(HttpClientConfig.getHttpIdelTimeout(), TimeUnit.MILLISECONDS);
+							logger.debug(&quot;close expired and idle for over 5s connection&quot;);
+						}
+					}, HttpClientConfig.getHttpMonitorInterval(), HttpClientConfig.getHttpMonitorInterval(),
+							TimeUnit.MILLISECONDS);
+				}
+			}
+		}
+		return httpClient;
+	}
+	/**
+	 * 根据host和port构建httpclient实例
+	 * 
+	 * @param host
+	 *            要访问的域名
+	 * @param port
+	 *            要访问的端口
+	 * @return
+	 */
+	public static CloseableHttpClient createHttpClient(String host, int port) {
+		ConnectionSocketFactory plainSocketFactory = PlainConnectionSocketFactory.getSocketFactory();
+		LayeredConnectionSocketFactory sslSocketFactory = SSLConnectionSocketFactory.getSocketFactory();
+		Registry&lt;ConnectionSocketFactory&gt; registry = RegistryBuilder.&lt;ConnectionSocketFactory&gt; create()
+				.register(&quot;http&quot;, plainSocketFactory).register(&quot;https&quot;, sslSocketFactory).build();
+		manager = new PoolingHttpClientConnectionManager(registry);
+		// 设置连接参数
+		manager.setMaxTotal(MAX_CONN); // 最大连接数
+		manager.setDefaultMaxPerRoute(Max_PRE_ROUTE); // 路由最大连接数
+		HttpHost httpHost = new HttpHost(host, port);
+		manager.setMaxPerRoute(new HttpRoute(httpHost), MAX_ROUTE);
+		// 请求失败时,进行请求重试
+		HttpRequestRetryHandler handler = new HttpRequestRetryHandler() {
+			@Override
+			public boolean retryRequest(IOException e, int i, HttpContext httpContext) {
+				if (i &gt; 3) {
+					// 重试超过3次,放弃请求
+					logger.error(&quot;retry has more than 3 time, give up request&quot;);
+					return false;
+				}
+				if (e instanceof NoHttpResponseException) {
+					// 服务器没有响应,可能是服务器断开了连接,应该重试
+					logger.error(&quot;receive no response from server, retry&quot;);
+					return true;
+				}
+				if (e instanceof SSLHandshakeException) {
+					// SSL握手异常
+					logger.error(&quot;SSL hand shake exception&quot;);
+					return false;
+				}
+				if (e instanceof InterruptedIOException) {
+					// 超时
+					logger.error(&quot;InterruptedIOException&quot;);
+					return false;
+				}
+				if (e instanceof UnknownHostException) {
+					// 服务器不可达
+					logger.error(&quot;server host unknown&quot;);
+					return false;
+				}
+				if (e instanceof ConnectTimeoutException) {
+					// 连接超时
+					logger.error(&quot;Connection Time out&quot;);
+					return false;
+				}
+				if (e instanceof SSLException) {
+					logger.error(&quot;SSLException&quot;);
+					return false;
+				}
+				HttpClientContext context = HttpClientContext.adapt(httpContext);
+				HttpRequest request = context.getRequest();
+				if (!(request instanceof HttpEntityEnclosingRequest)) {
+					// 如果请求不是关闭连接的请求
+					return true;
+				}
+				return false;
+			}
+		};
+		CloseableHttpClient client = HttpClients.custom().setConnectionManager(manager).setRetryHandler(handler)
+				.build();
+		return client;
+	}
+	/**
+	 * 关闭连接池
+	 */
+	public static void closeConnectionPool() {
+		try {
+			httpClient.close();
+			manager.close();
+			monitorExecutor.shutdown();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+</code></pre><h4 id="redismessage" tabindex="-1">RedisMessage <a class="header-anchor" href="#redismessage" aria-label="Permalink to &quot;RedisMessage&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.Serializable;
+public class RedisMessage implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String msgType;//消息类型/消息通道
+	private String configType;//配置类型,包括：“add”，“modify”，“del”
+	private String configObjType;//对象配置类型 包括：“accessPlat”，“videoAnalyseTask”，“repositories” ，“repositoriesPerson”
+	private String configObjID;//对象标识,具体对象的标识
+	public String getMsgType() {
+		return msgType;
+	}
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
+	public String getConfigType() {
+		return configType;
+	}
+	public void setConfigType(String configType) {
+		this.configType = configType;
+	}
+	public String getConfigObjType() {
+		return configObjType;
+	}
+	public void setConfigObjType(String configObjType) {
+		this.configObjType = configObjType;
+	}
+	public String getConfigObjID() {
+		return configObjID;
+	}
+	public void setConfigObjID(String configObjID) {
+		this.configObjID = configObjID;
+	}
+}
+</code></pre><h4 id="redispublishutil" tabindex="-1">RedisPublishUtil <a class="header-anchor" href="#redispublishutil" aria-label="Permalink to &quot;RedisPublishUtil&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.util.Map;
+import org.apache.log4j.Logger;
+import net.sf.json.JSONObject;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.exceptions.JedisConnectionException;
+public class RedisPublishUtil {
+	private Logger logger = Logger.getLogger(RedisPublishUtil.class);
+	public static Jedis pubJedis;
+	private static Map&lt;String, String&gt; proMap = PropertyReader.getProperties();
+	private static final String redisPort = proMap.get(&quot;redis.port&quot;);
+	private static String url = proMap.get(&quot;redis.host&quot;);
+	private static final int port = Integer.parseInt(redisPort);
+	public void setPubJedis(Jedis jedis) {
+		RedisPublishUtil.pubJedis = jedis;
+	}
+	// 公共发布接口
+	/*public void pubMessage(String channel, String msg) {
+		pubJedis.publish(channel, msg);
+	}*/
+	public Jedis getPubJedis() {
+		if (pubJedis == null) {
+			createJedisConnect();
+		}
+		// 返回对象
+		return pubJedis;
+	}
+	public Jedis createJedisConnect(){
+		// 连接redis
+		logger.info(&quot;===创建连接jedis=====&quot;);
+		try {
+			pubJedis = new Jedis(url, port);
+		} catch (JedisConnectionException e) {
+			logger.error(&quot;Jedis连接异常,异常信息 :&quot; + e.getMessage());
+			try {
+				Thread.sleep(1000);
+				logger.info(&quot;发起重新连接jedis&quot;);
+				createJedisConnect();
+			} catch (InterruptedException except) {
+				except.printStackTrace();
+			}
+		}
+		// 返回对象
+		return pubJedis;
+	}
+	/**
+	 * @Title: pubConfigMsg
+	 * @Description: TODO(发布配置相关消息)
+	 * @param msgType
+	 *            消息类型/消息通道
+	 * @param configType
+	 *            配置类型,包括：“add”，“modify”，“del”
+	 * @param configObjType
+	 *            对象配置类型,包括：“accessPlat”，“videoAnalyseTask”，“repositories，“
+	 *            repositoriesPerson”
+	 * @param configObjID
+	 *            对象标识,具体对象的标识
+	 */
+	public void pubConfigMsg(String msgType, String configType, String configObjType, String configObjID) {
+		RedisMessage redisMessage = new RedisMessage();
+		// 消息类型/消息通道
+		redisMessage.setMsgType(msgType);
+		// 配置类型,包括：“add”，“modify”，“del”
+		redisMessage.setConfigType(configType);
+		// 对象配置类型
+		// 包括：“accessPlat”，“restartDetectionReq”
+		redisMessage.setConfigObjType(configObjType);
+		// 对象标识,具体对象的标识
+		redisMessage.setConfigObjID(configObjID);
+		// 将对象转json
+		JSONObject json = JSONObject.fromObject(redisMessage);
+		String msg = json.toString();
+		// 调用接口发布消息
+		logger.info(&quot;redis准备发布消息内容：&quot; + msg);
+		try {
+			this.getPubJedis().publish(msgType, msg);
+		} catch (JedisConnectionException e) {
+			logger.error(&quot;redis发布消息失败！&quot;, e);
+			this.setPubJedis(null);
+			logger.info(&quot;重新发布消息，channel=&quot;+msgType);
+			pubConfigMsg(msgType, configType, configObjType, configObjID);
+		}
+	}
+	public void pubRedisMsg(String msgType,String msg){
+		logger.info(&quot;redis准备发布消息内容：&quot; + msg);
+		try {
+			this.getPubJedis().publish(msgType, msg);
+		} catch (JedisConnectionException e) {
+			logger.error(&quot;redis发布消息失败！&quot;, e);
+			this.setPubJedis(null);
+			logger.info(&quot;重新发布消息，channel=&quot;+msgType);
+			pubRedisMsg(msgType, msg);
+		}
+	}
+}
+</code></pre><h4 id="result" tabindex="-1">Result <a class="header-anchor" href="#result" aria-label="Permalink to &quot;Result&quot;">​</a></h4><pre><code>package minyuantec.securitysystem.common;
+import java.io.Serializable;
+/*
+ * 之前的项目一般引用自己工程中独立的JsonResult类，但两者完全是一样的。
+ * 由于此类的普通使用，所以将其提取到kedacommon工程中，以后新的项目工程均应该直接引用此类
+ */
+/**
+ * 描述一个用于JSON规范的结果集。此类一般用于Web工程，定义一套数据交互规范。服务器将数据（对象）包装，在相应的处理层（比如Struts-json）将实例转换成JSON字符串
+ * ，再返回给客户端（浏览器），此规范常用于客户端AJAX请求的数据交互。
+ * 
+ * @author TaoPeng
+ * @referenceBy 基本所有的WEB工程都使用了此类。
+ */
+public class Result implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private int code;
+	private String message;
+	public int getCode() {
+		return code;
+	}
+	public void setCode(int code) {
+		this.code = code;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+}
+</code></pre></div></div></main><footer class="VPDocFooter" data-v-39a288b8 data-v-e257564d><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter" data-v-5d98c3a5 data-v-e315a0ad><div class="container" data-v-e315a0ad><p class="message" data-v-e315a0ad>思维垃圾</p><p class="copyright" data-v-e315a0ad>Copyright © 2024present v123ve</p></div></footer><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"index.md\":\"CSms-AAW\",\"zh-cn_学习笔记_23种设计模式(6).md\":\"CfnkgiL_\",\"zh-cn_学习笔记_annatation注解.md\":\"DohaOjfH\",\"zh-cn_学习笔记_apache shiro.md\":\"2k-CHfMQ\",\"zh-cn_学习笔记_binaryinsertsort.java.md\":\"Bs4_bfAB\",\"zh-cn_学习笔记_ioc 控制反转（inversion of control）.md\":\"BQyLiUQ2\",\"zh-cn_学习笔记_java-web工程.md\":\"BTnTYYvQ\",\"zh-cn_学习笔记_java相关.md\":\"D-VV41RM\",\"zh-cn_学习笔记_java高级特性.md\":\"FIMFqxdV\",\"zh-cn_学习笔记_jdbc.md\":\"h4iQqjhf\",\"zh-cn_学习笔记_linux.md\":\"CYYk6FE8\",\"zh-cn_学习笔记_mybatis.md\":\"DKeKkYhy\",\"zh-cn_学习笔记_myxml.md\":\"E6TrQh99\",\"zh-cn_学习笔记_nginx简介.md\":\"C-ghxRS5\",\"zh-cn_学习笔记_redis.md\":\"CR_IJDYS\",\"zh-cn_学习笔记_shell编程.md\":\"BhhlO2vF\",\"zh-cn_学习笔记_socket tcp udp.md\":\"DjZQqRep\",\"zh-cn_学习笔记_spring boot.md\":\"C7sxpYpu\",\"zh-cn_学习笔记_spring mvc 多线程并发.md\":\"DVJgzjdD\",\"zh-cn_学习笔记_springboot.md\":\"BonNz02Y\",\"zh-cn_学习笔记_springmvc的配置：.md\":\"CATzlb6D\",\"zh-cn_学习笔记_spring定时任务.md\":\"DT1E8JDo\",\"zh-cn_学习笔记_spring简介.md\":\"DM5bhVB0\",\"zh-cn_学习笔记_swagger.md\":\"BJOgFJWd\",\"zh-cn_学习笔记_web.xml.md\":\"B5KBRFV6\",\"zh-cn_学习笔记_zookeeper.md\":\"CQiVodbQ\",\"zh-cn_学习笔记_二期.md\":\"B31c9co_\",\"zh-cn_学习笔记_代理模式.md\":\"CN8gZjK0\",\"zh-cn_学习笔记_使用heritrix 爬取网络资源.md\":\"COuBkHMd\",\"zh-cn_学习笔记_分布式微服务架构原理.md\":\"ngjaiU4f\",\"zh-cn_学习笔记_分布式搜索框架es.md\":\"Cl0Bbev_\",\"zh-cn_学习笔记_分布式消息队列kafka.md\":\"BXK9VYqP\",\"zh-cn_学习笔记_四大金刚.md\":\"Di6lIJKW\",\"zh-cn_学习笔记_在js中获取文件点之后的后缀字符.md\":\"Ciy9Jwaz\",\"zh-cn_学习笔记_大数据.md\":\"CgCMJqQG\",\"zh-cn_学习笔记_排序.md\":\"CgcQGfzP\",\"zh-cn_学习笔记_获取行政区范围.md\":\"BHaa3bdv\",\"zh-cn_学习笔记_菱形.md\":\"BRO0jlcW\",\"zh-cn_学习笔记_进程和线程的区别：.md\":\"DCy-dnv2\",\"zh-cn_学习笔记_零xml配置ss.md\":\"DIuhJE8A\",\"zh-cn_学习笔记_零配置ssm框架整合.md\":\"BzkxQVP5\",\"zh-cn_学习笔记_面试经验.md\":\"CWGDmOnf\",\"zh-cn_工作笔记_ad-grid按无、符号、数字、字母、中文排序.md\":\"ltDm75yy\",\"zh-cn_工作笔记_codemirror.md\":\"BpehgFwc\",\"zh-cn_工作笔记_content图标库.md\":\"CHpxQe6p\",\"zh-cn_工作笔记_css常用操作.md\":\"NVL53xEI\",\"zh-cn_工作笔记_css酷炫实现.md\":\"DcAwKEuI\",\"zh-cn_工作笔记_docker.md\":\"k3aLdZgI\",\"zh-cn_工作笔记_dumi.md\":\"wCj8_RZa\",\"zh-cn_工作笔记_easy-ui常用操作.md\":\"D5E_VY4d\",\"zh-cn_工作笔记_es6多继承.md\":\"BJC-Ajbw\",\"zh-cn_工作笔记_idea设置教程.md\":\"BsYet_qs\",\"zh-cn_工作笔记_iframe跨域.md\":\"Be6YAcLh\",\"zh-cn_工作笔记_javautils.md\":\"ChHc03Z7\",\"zh-cn_工作笔记_java常用操作.md\":\"KpFEocJF\",\"zh-cn_工作笔记_js常用操作.md\":\"BnSFmztT\",\"zh-cn_工作笔记_js生成树.md\":\"C5TRMSQn\",\"zh-cn_工作笔记_less.md\":\"B2S4QAvz\",\"zh-cn_工作笔记_listary集成everything.md\":\"DxddgJNv\",\"zh-cn_工作笔记_lodash.md\":\"Oe4ysgDd\",\"zh-cn_工作笔记_mock示例.md\":\"CQxR8-eb\",\"zh-cn_工作笔记_nginx不缓存设置.md\":\"DZMLWmwi\",\"zh-cn_工作笔记_nginx正则取反.md\":\"-1kfArTZ\",\"zh-cn_工作笔记_nodejs和webpack.md\":\"CBwcSn5W\",\"zh-cn_工作笔记_react常用操作.md\":\"D8Q5NaUn\",\"zh-cn_工作笔记_react高级.md\":\"xuzInWC9\",\"zh-cn_工作笔记_samba.md\":\"B0WwTcpU\",\"zh-cn_工作笔记_sql相关.md\":\"C61RJvX0\",\"zh-cn_工作笔记_umi2_pnpm.md\":\"D3WqPFLp\",\"zh-cn_工作笔记_videocommon.md\":\"ympQV7SZ\",\"zh-cn_工作笔记_vscode.md\":\"BN45ArKO\",\"zh-cn_工作笔记_webpack代码混淆.md\":\"DQ-lPzaW\",\"zh-cn_工作笔记_websocket.md\":\"CZdPw4NE\",\"zh-cn_工作笔记_windows常用操作.md\":\"BRtyzg-I\",\"zh-cn_工作笔记_创建offer.md\":\"DHt0uPNb\",\"zh-cn_工作笔记_前端开发环境部署.md\":\"CnvWgEAf\",\"zh-cn_工作笔记_加密解密.md\":\"BoOdlfl-\",\"zh-cn_工作笔记_叉号.md\":\"DmOyyn9I\",\"zh-cn_工作笔记_双击处理.md\":\"CP0BMNGV\",\"zh-cn_工作笔记_向量叉乘.md\":\"BccQloYH\",\"zh-cn_工作笔记_响应系统的作用与实现.md\":\"FBjfpL_B\",\"zh-cn_工作笔记_奇偶岸边.md\":\"YqFsH-HK\",\"zh-cn_工作笔记_安装.md\":\"CYszrS21\",\"zh-cn_工作笔记_排序和树.md\":\"C4vdRs5c\",\"zh-cn_工作笔记_文件下载.md\":\"D1OHaD0g\",\"zh-cn_工作笔记_渲染器和diff算法.md\":\"tEjhmHL0\",\"zh-cn_工作笔记_生成饼状图.md\":\"DuBFzH43\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"zh-CN\",\"dir\":\"ltr\",\"title\":\"v123ve\",\"description\":\"思维垃圾\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"footer\":{\"message\":\"思维垃圾\",\"copyright\":\"Copyright © 2024present v123ve\"},\"logo\":\"/v-logo.png\",\"i18nRouting\":true,\"search\":{\"provider\":\"local\",\"options\":{\"locales\":{\"zh-CN\":{\"translations\":{\"button\":{\"buttonText\":\"搜索\",\"buttonAriaLabel\":\"搜索文档\"},\"modal\":{\"displayDetails\":\"显示详细列表\",\"noResultsText\":\"无法找到相关结果\",\"resetButtonTitle\":\"清除查询结果\",\"footer\":{\"selectText\":\"选择\",\"navigateText\":\"切换\",\"closeText\":\"关闭\"}}}},\"en-US\":{\"translations\":{\"button\":{\"buttonText\":\"Search\",\"buttonAriaLabel\":\"Search for Documents\"},\"modal\":{\"displayDetails\":\"Display detailed list\",\"noResultsText\":\"Unable to find relevant results\",\"resetButtonTitle\":\"Clear Query Results\",\"footer\":{\"selectText\":\"select\",\"navigateText\":\"switch\",\"closeText\":\"close\"}}}}}}},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{\"root\":{\"label\":\"简体中文\",\"lang\":\"zh-CN\",\"link\":\"/\",\"description\":\"思维垃圾\",\"title\":\"v123ve\",\"themeConfig\":{\"darkModeSwitchLabel\":\"主题\",\"docFooter\":{\"prev\":\"上一篇\",\"next\":\"下一篇\"},\"lastUpdatedText\":\"最后更新\",\"nav\":[{\"text\":\"主页\",\"link\":\"/\"},{\"text\":\"学习笔记\",\"items\":[{\"text\":\"23种设计模式(6)\",\"link\":\"/zh-CN/学习笔记/23种设计模式(6)\"},{\"text\":\"annatation注解\",\"link\":\"/zh-CN/学习笔记/annatation注解\"},{\"text\":\"Apache Shiro\",\"link\":\"/zh-CN/学习笔记/Apache Shiro\"},{\"text\":\"BinaryInsertSort.java\",\"link\":\"/zh-CN/学习笔记/BinaryInsertSort.java\"},{\"text\":\"IOC 控制反转（inversion of control）\",\"link\":\"/zh-CN/学习笔记/IOC 控制反转（inversion of control）\"},{\"text\":\"java-web工程\",\"link\":\"/zh-CN/学习笔记/java-web工程\"},{\"text\":\"java相关\",\"link\":\"/zh-CN/学习笔记/java相关\"},{\"text\":\"java高级特性\",\"link\":\"/zh-CN/学习笔记/java高级特性\"},{\"text\":\"jdbc\",\"link\":\"/zh-CN/学习笔记/jdbc\"},{\"text\":\"linux\",\"link\":\"/zh-CN/学习笔记/linux\"},{\"text\":\"mybatis\",\"link\":\"/zh-CN/学习笔记/mybatis\"},{\"text\":\"myxml\",\"link\":\"/zh-CN/学习笔记/myxml\"},{\"text\":\"nginx简介\",\"link\":\"/zh-CN/学习笔记/nginx简介\"},{\"text\":\"Redis\",\"link\":\"/zh-CN/学习笔记/Redis\"},{\"text\":\"shell编程\",\"link\":\"/zh-CN/学习笔记/shell编程\"},{\"text\":\"socket tcp udp\",\"link\":\"/zh-CN/学习笔记/socket tcp udp\"},{\"text\":\"Spring Boot\",\"link\":\"/zh-CN/学习笔记/Spring Boot\"},{\"text\":\"spring mvc 多线程并发\",\"link\":\"/zh-CN/学习笔记/spring mvc 多线程并发\"},{\"text\":\"SpringBoot\",\"link\":\"/zh-CN/学习笔记/SpringBoot\"},{\"text\":\"springmvc的配置：\",\"link\":\"/zh-CN/学习笔记/springmvc的配置：\"},{\"text\":\"spring定时任务\",\"link\":\"/zh-CN/学习笔记/spring定时任务\"},{\"text\":\"spring简介\",\"link\":\"/zh-CN/学习笔记/spring简介\"},{\"text\":\"Swagger\",\"link\":\"/zh-CN/学习笔记/Swagger\"},{\"text\":\"web.xml\",\"link\":\"/zh-CN/学习笔记/web.xml\"},{\"text\":\"Zookeeper\",\"link\":\"/zh-CN/学习笔记/Zookeeper\"},{\"text\":\"二期\",\"link\":\"/zh-CN/学习笔记/二期\"},{\"text\":\"代理模式\",\"link\":\"/zh-CN/学习笔记/代理模式\"},{\"text\":\"使用Heritrix 爬取网络资源\",\"link\":\"/zh-CN/学习笔记/使用Heritrix 爬取网络资源\"},{\"text\":\"分布式微服务架构原理\",\"link\":\"/zh-CN/学习笔记/分布式微服务架构原理\"},{\"text\":\"分布式搜索框架ES\",\"link\":\"/zh-CN/学习笔记/分布式搜索框架ES\"},{\"text\":\"分布式消息队列kafka\",\"link\":\"/zh-CN/学习笔记/分布式消息队列kafka\"},{\"text\":\"四大金刚\",\"link\":\"/zh-CN/学习笔记/四大金刚\"},{\"text\":\"在JS中获取文件点之后的后缀字符\",\"link\":\"/zh-CN/学习笔记/在JS中获取文件点之后的后缀字符\"},{\"text\":\"大数据\",\"link\":\"/zh-CN/学习笔记/大数据\"},{\"text\":\"排序\",\"link\":\"/zh-CN/学习笔记/排序\"},{\"text\":\"获取行政区范围\",\"link\":\"/zh-CN/学习笔记/获取行政区范围\"},{\"text\":\"菱形\",\"link\":\"/zh-CN/学习笔记/菱形\"},{\"text\":\"进程和线程的区别：\",\"link\":\"/zh-CN/学习笔记/进程和线程的区别：\"},{\"text\":\"零XML配置ss\",\"link\":\"/zh-CN/学习笔记/零XML配置ss\"},{\"text\":\"零配置ssm框架整合\",\"link\":\"/zh-CN/学习笔记/零配置ssm框架整合\"},{\"text\":\"面试经验\",\"link\":\"/zh-CN/学习笔记/面试经验\"}]},{\"text\":\"工作笔记\",\"items\":[{\"text\":\"ad-grid按无、符号、数字、字母、中文排序\",\"link\":\"/zh-CN/工作笔记/ad-grid按无、符号、数字、字母、中文排序\"},{\"text\":\"CodeMirror\",\"link\":\"/zh-CN/工作笔记/CodeMirror\"},{\"text\":\"content图标库\",\"link\":\"/zh-CN/工作笔记/content图标库\"},{\"text\":\"CSS常用操作\",\"link\":\"/zh-CN/工作笔记/CSS常用操作\"},{\"text\":\"CSS酷炫实现\",\"link\":\"/zh-CN/工作笔记/CSS酷炫实现\"},{\"text\":\"Docker\",\"link\":\"/zh-CN/工作笔记/Docker\"},{\"text\":\"dumi\",\"link\":\"/zh-CN/工作笔记/dumi\"},{\"text\":\"easy-ui常用操作\",\"link\":\"/zh-CN/工作笔记/easy-ui常用操作\"},{\"text\":\"ES6多继承\",\"link\":\"/zh-CN/工作笔记/ES6多继承\"},{\"text\":\"idea设置教程\",\"link\":\"/zh-CN/工作笔记/idea设置教程\"},{\"text\":\"iframe跨域\",\"link\":\"/zh-CN/工作笔记/iframe跨域\"},{\"text\":\"JavaUtils\",\"link\":\"/zh-CN/工作笔记/JavaUtils\"},{\"text\":\"java常用操作\",\"link\":\"/zh-CN/工作笔记/java常用操作\"},{\"text\":\"js常用操作\",\"link\":\"/zh-CN/工作笔记/js常用操作\"},{\"text\":\"js生成树\",\"link\":\"/zh-CN/工作笔记/js生成树\"},{\"text\":\"less\",\"link\":\"/zh-CN/工作笔记/less\"},{\"text\":\"listary集成everything\",\"link\":\"/zh-CN/工作笔记/listary集成everything\"},{\"text\":\"lodash\",\"link\":\"/zh-CN/工作笔记/lodash\"},{\"text\":\"mock示例\",\"link\":\"/zh-CN/工作笔记/mock示例\"},{\"text\":\"nginx不缓存设置\",\"link\":\"/zh-CN/工作笔记/nginx不缓存设置\"},{\"text\":\"nginx正则取反\",\"link\":\"/zh-CN/工作笔记/nginx正则取反\"},{\"text\":\"NodeJs和WebPack\",\"link\":\"/zh-CN/工作笔记/NodeJs和WebPack\"},{\"text\":\"React常用操作\",\"link\":\"/zh-CN/工作笔记/React常用操作\"},{\"text\":\"React高级\",\"link\":\"/zh-CN/工作笔记/React高级\"},{\"text\":\"samba\",\"link\":\"/zh-CN/工作笔记/samba\"},{\"text\":\"Sql相关\",\"link\":\"/zh-CN/工作笔记/Sql相关\"},{\"text\":\"umi2_pnpm\",\"link\":\"/zh-CN/工作笔记/umi2_pnpm\"},{\"text\":\"VideoCommon\",\"link\":\"/zh-CN/工作笔记/VideoCommon\"},{\"text\":\"VSCode\",\"link\":\"/zh-CN/工作笔记/VSCode\"},{\"text\":\"Webpack代码混淆\",\"link\":\"/zh-CN/工作笔记/Webpack代码混淆\"},{\"text\":\"WebSocket\",\"link\":\"/zh-CN/工作笔记/WebSocket\"},{\"text\":\"windows常用操作\",\"link\":\"/zh-CN/工作笔记/windows常用操作\"},{\"text\":\"创建offer\",\"link\":\"/zh-CN/工作笔记/创建offer\"},{\"text\":\"前端开发环境部署\",\"link\":\"/zh-CN/工作笔记/前端开发环境部署\"},{\"text\":\"加密解密\",\"link\":\"/zh-CN/工作笔记/加密解密\"},{\"text\":\"叉号\",\"link\":\"/zh-CN/工作笔记/叉号\"},{\"text\":\"双击处理\",\"link\":\"/zh-CN/工作笔记/双击处理\"},{\"text\":\"向量叉乘\",\"link\":\"/zh-CN/工作笔记/向量叉乘\"},{\"text\":\"响应系统的作用与实现\",\"link\":\"/zh-CN/工作笔记/响应系统的作用与实现\"},{\"text\":\"奇偶岸边\",\"link\":\"/zh-CN/工作笔记/奇偶岸边\"},{\"text\":\"安装\",\"link\":\"/zh-CN/工作笔记/安装\"},{\"text\":\"排序和树\",\"link\":\"/zh-CN/工作笔记/排序和树\"},{\"text\":\"文件下载\",\"link\":\"/zh-CN/工作笔记/文件下载\"},{\"text\":\"渲染器和Diff算法\",\"link\":\"/zh-CN/工作笔记/渲染器和Diff算法\"},{\"text\":\"生成饼状图\",\"link\":\"/zh-CN/工作笔记/生成饼状图\"}]},{\"text\":\"记录笔记\",\"items\":[]}],\"outline\":{\"level\":[2,6],\"label\":\"目录\"},\"returnToTopLabel\":\"返回顶部\",\"sidebarMenuLabel\":\"菜单\",\"sidebar\":{\"/zh-CN/docs/学习笔记/\":[{\"text\":\"学习笔记\",\"collapsed\":true,\"items\":[{\"text\":\"23种设计模式(6)\",\"link\":\"/zh-CN/学习笔记/23种设计模式(6)\"},{\"text\":\"annatation注解\",\"link\":\"/zh-CN/学习笔记/annatation注解\"},{\"text\":\"Apache Shiro\",\"link\":\"/zh-CN/学习笔记/Apache Shiro\"},{\"text\":\"BinaryInsertSort.java\",\"link\":\"/zh-CN/学习笔记/BinaryInsertSort.java\"},{\"text\":\"IOC 控制反转（inversion of control）\",\"link\":\"/zh-CN/学习笔记/IOC 控制反转（inversion of control）\"},{\"text\":\"java-web工程\",\"link\":\"/zh-CN/学习笔记/java-web工程\"},{\"text\":\"java相关\",\"link\":\"/zh-CN/学习笔记/java相关\"},{\"text\":\"java高级特性\",\"link\":\"/zh-CN/学习笔记/java高级特性\"},{\"text\":\"jdbc\",\"link\":\"/zh-CN/学习笔记/jdbc\"},{\"text\":\"linux\",\"link\":\"/zh-CN/学习笔记/linux\"},{\"text\":\"mybatis\",\"link\":\"/zh-CN/学习笔记/mybatis\"},{\"text\":\"myxml\",\"link\":\"/zh-CN/学习笔记/myxml\"},{\"text\":\"nginx简介\",\"link\":\"/zh-CN/学习笔记/nginx简介\"},{\"text\":\"Redis\",\"link\":\"/zh-CN/学习笔记/Redis\"},{\"text\":\"shell编程\",\"link\":\"/zh-CN/学习笔记/shell编程\"},{\"text\":\"socket tcp udp\",\"link\":\"/zh-CN/学习笔记/socket tcp udp\"},{\"text\":\"Spring Boot\",\"link\":\"/zh-CN/学习笔记/Spring Boot\"},{\"text\":\"spring mvc 多线程并发\",\"link\":\"/zh-CN/学习笔记/spring mvc 多线程并发\"},{\"text\":\"SpringBoot\",\"link\":\"/zh-CN/学习笔记/SpringBoot\"},{\"text\":\"springmvc的配置：\",\"link\":\"/zh-CN/学习笔记/springmvc的配置：\"},{\"text\":\"spring定时任务\",\"link\":\"/zh-CN/学习笔记/spring定时任务\"},{\"text\":\"spring简介\",\"link\":\"/zh-CN/学习笔记/spring简介\"},{\"text\":\"Swagger\",\"link\":\"/zh-CN/学习笔记/Swagger\"},{\"text\":\"web.xml\",\"link\":\"/zh-CN/学习笔记/web.xml\"},{\"text\":\"Zookeeper\",\"link\":\"/zh-CN/学习笔记/Zookeeper\"},{\"text\":\"二期\",\"link\":\"/zh-CN/学习笔记/二期\"},{\"text\":\"代理模式\",\"link\":\"/zh-CN/学习笔记/代理模式\"},{\"text\":\"使用Heritrix 爬取网络资源\",\"link\":\"/zh-CN/学习笔记/使用Heritrix 爬取网络资源\"},{\"text\":\"分布式微服务架构原理\",\"link\":\"/zh-CN/学习笔记/分布式微服务架构原理\"},{\"text\":\"分布式搜索框架ES\",\"link\":\"/zh-CN/学习笔记/分布式搜索框架ES\"},{\"text\":\"分布式消息队列kafka\",\"link\":\"/zh-CN/学习笔记/分布式消息队列kafka\"},{\"text\":\"四大金刚\",\"link\":\"/zh-CN/学习笔记/四大金刚\"},{\"text\":\"在JS中获取文件点之后的后缀字符\",\"link\":\"/zh-CN/学习笔记/在JS中获取文件点之后的后缀字符\"},{\"text\":\"大数据\",\"link\":\"/zh-CN/学习笔记/大数据\"},{\"text\":\"排序\",\"link\":\"/zh-CN/学习笔记/排序\"},{\"text\":\"获取行政区范围\",\"link\":\"/zh-CN/学习笔记/获取行政区范围\"},{\"text\":\"菱形\",\"link\":\"/zh-CN/学习笔记/菱形\"},{\"text\":\"进程和线程的区别：\",\"link\":\"/zh-CN/学习笔记/进程和线程的区别：\"},{\"text\":\"零XML配置ss\",\"link\":\"/zh-CN/学习笔记/零XML配置ss\"},{\"text\":\"零配置ssm框架整合\",\"link\":\"/zh-CN/学习笔记/零配置ssm框架整合\"},{\"text\":\"面试经验\",\"link\":\"/zh-CN/学习笔记/面试经验\"}]}],\"/zh-CN/docs/工作笔记/\":[{\"text\":\"工作笔记\",\"collapsed\":true,\"items\":[{\"text\":\"ad-grid按无、符号、数字、字母、中文排序\",\"link\":\"/zh-CN/工作笔记/ad-grid按无、符号、数字、字母、中文排序\"},{\"text\":\"CodeMirror\",\"link\":\"/zh-CN/工作笔记/CodeMirror\"},{\"text\":\"content图标库\",\"link\":\"/zh-CN/工作笔记/content图标库\"},{\"text\":\"CSS常用操作\",\"link\":\"/zh-CN/工作笔记/CSS常用操作\"},{\"text\":\"CSS酷炫实现\",\"link\":\"/zh-CN/工作笔记/CSS酷炫实现\"},{\"text\":\"Docker\",\"link\":\"/zh-CN/工作笔记/Docker\"},{\"text\":\"dumi\",\"link\":\"/zh-CN/工作笔记/dumi\"},{\"text\":\"easy-ui常用操作\",\"link\":\"/zh-CN/工作笔记/easy-ui常用操作\"},{\"text\":\"ES6多继承\",\"link\":\"/zh-CN/工作笔记/ES6多继承\"},{\"text\":\"idea设置教程\",\"link\":\"/zh-CN/工作笔记/idea设置教程\"},{\"text\":\"iframe跨域\",\"link\":\"/zh-CN/工作笔记/iframe跨域\"},{\"text\":\"JavaUtils\",\"link\":\"/zh-CN/工作笔记/JavaUtils\"},{\"text\":\"java常用操作\",\"link\":\"/zh-CN/工作笔记/java常用操作\"},{\"text\":\"js常用操作\",\"link\":\"/zh-CN/工作笔记/js常用操作\"},{\"text\":\"js生成树\",\"link\":\"/zh-CN/工作笔记/js生成树\"},{\"text\":\"less\",\"link\":\"/zh-CN/工作笔记/less\"},{\"text\":\"listary集成everything\",\"link\":\"/zh-CN/工作笔记/listary集成everything\"},{\"text\":\"lodash\",\"link\":\"/zh-CN/工作笔记/lodash\"},{\"text\":\"mock示例\",\"link\":\"/zh-CN/工作笔记/mock示例\"},{\"text\":\"nginx不缓存设置\",\"link\":\"/zh-CN/工作笔记/nginx不缓存设置\"},{\"text\":\"nginx正则取反\",\"link\":\"/zh-CN/工作笔记/nginx正则取反\"},{\"text\":\"NodeJs和WebPack\",\"link\":\"/zh-CN/工作笔记/NodeJs和WebPack\"},{\"text\":\"React常用操作\",\"link\":\"/zh-CN/工作笔记/React常用操作\"},{\"text\":\"React高级\",\"link\":\"/zh-CN/工作笔记/React高级\"},{\"text\":\"samba\",\"link\":\"/zh-CN/工作笔记/samba\"},{\"text\":\"Sql相关\",\"link\":\"/zh-CN/工作笔记/Sql相关\"},{\"text\":\"umi2_pnpm\",\"link\":\"/zh-CN/工作笔记/umi2_pnpm\"},{\"text\":\"VideoCommon\",\"link\":\"/zh-CN/工作笔记/VideoCommon\"},{\"text\":\"VSCode\",\"link\":\"/zh-CN/工作笔记/VSCode\"},{\"text\":\"Webpack代码混淆\",\"link\":\"/zh-CN/工作笔记/Webpack代码混淆\"},{\"text\":\"WebSocket\",\"link\":\"/zh-CN/工作笔记/WebSocket\"},{\"text\":\"windows常用操作\",\"link\":\"/zh-CN/工作笔记/windows常用操作\"},{\"text\":\"创建offer\",\"link\":\"/zh-CN/工作笔记/创建offer\"},{\"text\":\"前端开发环境部署\",\"link\":\"/zh-CN/工作笔记/前端开发环境部署\"},{\"text\":\"加密解密\",\"link\":\"/zh-CN/工作笔记/加密解密\"},{\"text\":\"叉号\",\"link\":\"/zh-CN/工作笔记/叉号\"},{\"text\":\"双击处理\",\"link\":\"/zh-CN/工作笔记/双击处理\"},{\"text\":\"向量叉乘\",\"link\":\"/zh-CN/工作笔记/向量叉乘\"},{\"text\":\"响应系统的作用与实现\",\"link\":\"/zh-CN/工作笔记/响应系统的作用与实现\"},{\"text\":\"奇偶岸边\",\"link\":\"/zh-CN/工作笔记/奇偶岸边\"},{\"text\":\"安装\",\"link\":\"/zh-CN/工作笔记/安装\"},{\"text\":\"排序和树\",\"link\":\"/zh-CN/工作笔记/排序和树\"},{\"text\":\"文件下载\",\"link\":\"/zh-CN/工作笔记/文件下载\"},{\"text\":\"渲染器和Diff算法\",\"link\":\"/zh-CN/工作笔记/渲染器和Diff算法\"},{\"text\":\"生成饼状图\",\"link\":\"/zh-CN/工作笔记/生成饼状图\"}]}],\"/zh-CN/docs/记录笔记/\":[{\"text\":\"记录笔记\",\"collapsed\":true,\"items\":[]}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}],\"search\":{\"provider\":\"local\",\"options\":{\"locales\":{\"zh-CN\":{\"translations\":{\"button\":{\"buttonText\":\"搜索\",\"buttonAriaLabel\":\"搜索文档\"},\"modal\":{\"displayDetails\":\"显示详细列表\",\"noResultsText\":\"无法找到相关结果\",\"resetButtonTitle\":\"清除查询结果\",\"footer\":{\"selectText\":\"选择\",\"navigateText\":\"切换\",\"closeText\":\"关闭\"}}}}}}}}},\"zh-CN\":{\"label\":\"简体中文\",\"lang\":\"zh-CN\",\"link\":\"/\",\"description\":\"思维垃圾\",\"title\":\"v123ve\",\"themeConfig\":{\"darkModeSwitchLabel\":\"主题\",\"docFooter\":{\"prev\":\"上一篇\",\"next\":\"下一篇\"},\"lastUpdatedText\":\"最后更新\",\"nav\":[{\"text\":\"主页\",\"link\":\"/\"},{\"text\":\"学习笔记\",\"items\":[{\"text\":\"23种设计模式(6)\",\"link\":\"/zh-CN/学习笔记/23种设计模式(6)\"},{\"text\":\"annatation注解\",\"link\":\"/zh-CN/学习笔记/annatation注解\"},{\"text\":\"Apache Shiro\",\"link\":\"/zh-CN/学习笔记/Apache Shiro\"},{\"text\":\"BinaryInsertSort.java\",\"link\":\"/zh-CN/学习笔记/BinaryInsertSort.java\"},{\"text\":\"IOC 控制反转（inversion of control）\",\"link\":\"/zh-CN/学习笔记/IOC 控制反转（inversion of control）\"},{\"text\":\"java-web工程\",\"link\":\"/zh-CN/学习笔记/java-web工程\"},{\"text\":\"java相关\",\"link\":\"/zh-CN/学习笔记/java相关\"},{\"text\":\"java高级特性\",\"link\":\"/zh-CN/学习笔记/java高级特性\"},{\"text\":\"jdbc\",\"link\":\"/zh-CN/学习笔记/jdbc\"},{\"text\":\"linux\",\"link\":\"/zh-CN/学习笔记/linux\"},{\"text\":\"mybatis\",\"link\":\"/zh-CN/学习笔记/mybatis\"},{\"text\":\"myxml\",\"link\":\"/zh-CN/学习笔记/myxml\"},{\"text\":\"nginx简介\",\"link\":\"/zh-CN/学习笔记/nginx简介\"},{\"text\":\"Redis\",\"link\":\"/zh-CN/学习笔记/Redis\"},{\"text\":\"shell编程\",\"link\":\"/zh-CN/学习笔记/shell编程\"},{\"text\":\"socket tcp udp\",\"link\":\"/zh-CN/学习笔记/socket tcp udp\"},{\"text\":\"Spring Boot\",\"link\":\"/zh-CN/学习笔记/Spring Boot\"},{\"text\":\"spring mvc 多线程并发\",\"link\":\"/zh-CN/学习笔记/spring mvc 多线程并发\"},{\"text\":\"SpringBoot\",\"link\":\"/zh-CN/学习笔记/SpringBoot\"},{\"text\":\"springmvc的配置：\",\"link\":\"/zh-CN/学习笔记/springmvc的配置：\"},{\"text\":\"spring定时任务\",\"link\":\"/zh-CN/学习笔记/spring定时任务\"},{\"text\":\"spring简介\",\"link\":\"/zh-CN/学习笔记/spring简介\"},{\"text\":\"Swagger\",\"link\":\"/zh-CN/学习笔记/Swagger\"},{\"text\":\"web.xml\",\"link\":\"/zh-CN/学习笔记/web.xml\"},{\"text\":\"Zookeeper\",\"link\":\"/zh-CN/学习笔记/Zookeeper\"},{\"text\":\"二期\",\"link\":\"/zh-CN/学习笔记/二期\"},{\"text\":\"代理模式\",\"link\":\"/zh-CN/学习笔记/代理模式\"},{\"text\":\"使用Heritrix 爬取网络资源\",\"link\":\"/zh-CN/学习笔记/使用Heritrix 爬取网络资源\"},{\"text\":\"分布式微服务架构原理\",\"link\":\"/zh-CN/学习笔记/分布式微服务架构原理\"},{\"text\":\"分布式搜索框架ES\",\"link\":\"/zh-CN/学习笔记/分布式搜索框架ES\"},{\"text\":\"分布式消息队列kafka\",\"link\":\"/zh-CN/学习笔记/分布式消息队列kafka\"},{\"text\":\"四大金刚\",\"link\":\"/zh-CN/学习笔记/四大金刚\"},{\"text\":\"在JS中获取文件点之后的后缀字符\",\"link\":\"/zh-CN/学习笔记/在JS中获取文件点之后的后缀字符\"},{\"text\":\"大数据\",\"link\":\"/zh-CN/学习笔记/大数据\"},{\"text\":\"排序\",\"link\":\"/zh-CN/学习笔记/排序\"},{\"text\":\"获取行政区范围\",\"link\":\"/zh-CN/学习笔记/获取行政区范围\"},{\"text\":\"菱形\",\"link\":\"/zh-CN/学习笔记/菱形\"},{\"text\":\"进程和线程的区别：\",\"link\":\"/zh-CN/学习笔记/进程和线程的区别：\"},{\"text\":\"零XML配置ss\",\"link\":\"/zh-CN/学习笔记/零XML配置ss\"},{\"text\":\"零配置ssm框架整合\",\"link\":\"/zh-CN/学习笔记/零配置ssm框架整合\"},{\"text\":\"面试经验\",\"link\":\"/zh-CN/学习笔记/面试经验\"}]},{\"text\":\"工作笔记\",\"items\":[{\"text\":\"ad-grid按无、符号、数字、字母、中文排序\",\"link\":\"/zh-CN/工作笔记/ad-grid按无、符号、数字、字母、中文排序\"},{\"text\":\"CodeMirror\",\"link\":\"/zh-CN/工作笔记/CodeMirror\"},{\"text\":\"content图标库\",\"link\":\"/zh-CN/工作笔记/content图标库\"},{\"text\":\"CSS常用操作\",\"link\":\"/zh-CN/工作笔记/CSS常用操作\"},{\"text\":\"CSS酷炫实现\",\"link\":\"/zh-CN/工作笔记/CSS酷炫实现\"},{\"text\":\"Docker\",\"link\":\"/zh-CN/工作笔记/Docker\"},{\"text\":\"dumi\",\"link\":\"/zh-CN/工作笔记/dumi\"},{\"text\":\"easy-ui常用操作\",\"link\":\"/zh-CN/工作笔记/easy-ui常用操作\"},{\"text\":\"ES6多继承\",\"link\":\"/zh-CN/工作笔记/ES6多继承\"},{\"text\":\"idea设置教程\",\"link\":\"/zh-CN/工作笔记/idea设置教程\"},{\"text\":\"iframe跨域\",\"link\":\"/zh-CN/工作笔记/iframe跨域\"},{\"text\":\"JavaUtils\",\"link\":\"/zh-CN/工作笔记/JavaUtils\"},{\"text\":\"java常用操作\",\"link\":\"/zh-CN/工作笔记/java常用操作\"},{\"text\":\"js常用操作\",\"link\":\"/zh-CN/工作笔记/js常用操作\"},{\"text\":\"js生成树\",\"link\":\"/zh-CN/工作笔记/js生成树\"},{\"text\":\"less\",\"link\":\"/zh-CN/工作笔记/less\"},{\"text\":\"listary集成everything\",\"link\":\"/zh-CN/工作笔记/listary集成everything\"},{\"text\":\"lodash\",\"link\":\"/zh-CN/工作笔记/lodash\"},{\"text\":\"mock示例\",\"link\":\"/zh-CN/工作笔记/mock示例\"},{\"text\":\"nginx不缓存设置\",\"link\":\"/zh-CN/工作笔记/nginx不缓存设置\"},{\"text\":\"nginx正则取反\",\"link\":\"/zh-CN/工作笔记/nginx正则取反\"},{\"text\":\"NodeJs和WebPack\",\"link\":\"/zh-CN/工作笔记/NodeJs和WebPack\"},{\"text\":\"React常用操作\",\"link\":\"/zh-CN/工作笔记/React常用操作\"},{\"text\":\"React高级\",\"link\":\"/zh-CN/工作笔记/React高级\"},{\"text\":\"samba\",\"link\":\"/zh-CN/工作笔记/samba\"},{\"text\":\"Sql相关\",\"link\":\"/zh-CN/工作笔记/Sql相关\"},{\"text\":\"umi2_pnpm\",\"link\":\"/zh-CN/工作笔记/umi2_pnpm\"},{\"text\":\"VideoCommon\",\"link\":\"/zh-CN/工作笔记/VideoCommon\"},{\"text\":\"VSCode\",\"link\":\"/zh-CN/工作笔记/VSCode\"},{\"text\":\"Webpack代码混淆\",\"link\":\"/zh-CN/工作笔记/Webpack代码混淆\"},{\"text\":\"WebSocket\",\"link\":\"/zh-CN/工作笔记/WebSocket\"},{\"text\":\"windows常用操作\",\"link\":\"/zh-CN/工作笔记/windows常用操作\"},{\"text\":\"创建offer\",\"link\":\"/zh-CN/工作笔记/创建offer\"},{\"text\":\"前端开发环境部署\",\"link\":\"/zh-CN/工作笔记/前端开发环境部署\"},{\"text\":\"加密解密\",\"link\":\"/zh-CN/工作笔记/加密解密\"},{\"text\":\"叉号\",\"link\":\"/zh-CN/工作笔记/叉号\"},{\"text\":\"双击处理\",\"link\":\"/zh-CN/工作笔记/双击处理\"},{\"text\":\"向量叉乘\",\"link\":\"/zh-CN/工作笔记/向量叉乘\"},{\"text\":\"响应系统的作用与实现\",\"link\":\"/zh-CN/工作笔记/响应系统的作用与实现\"},{\"text\":\"奇偶岸边\",\"link\":\"/zh-CN/工作笔记/奇偶岸边\"},{\"text\":\"安装\",\"link\":\"/zh-CN/工作笔记/安装\"},{\"text\":\"排序和树\",\"link\":\"/zh-CN/工作笔记/排序和树\"},{\"text\":\"文件下载\",\"link\":\"/zh-CN/工作笔记/文件下载\"},{\"text\":\"渲染器和Diff算法\",\"link\":\"/zh-CN/工作笔记/渲染器和Diff算法\"},{\"text\":\"生成饼状图\",\"link\":\"/zh-CN/工作笔记/生成饼状图\"}]},{\"text\":\"记录笔记\",\"items\":[]}],\"outline\":{\"level\":[2,6],\"label\":\"目录\"},\"returnToTopLabel\":\"返回顶部\",\"sidebarMenuLabel\":\"菜单\",\"sidebar\":{\"/zh-CN/docs/学习笔记/\":[{\"text\":\"学习笔记\",\"collapsed\":true,\"items\":[{\"text\":\"23种设计模式(6)\",\"link\":\"/zh-CN/学习笔记/23种设计模式(6)\"},{\"text\":\"annatation注解\",\"link\":\"/zh-CN/学习笔记/annatation注解\"},{\"text\":\"Apache Shiro\",\"link\":\"/zh-CN/学习笔记/Apache Shiro\"},{\"text\":\"BinaryInsertSort.java\",\"link\":\"/zh-CN/学习笔记/BinaryInsertSort.java\"},{\"text\":\"IOC 控制反转（inversion of control）\",\"link\":\"/zh-CN/学习笔记/IOC 控制反转（inversion of control）\"},{\"text\":\"java-web工程\",\"link\":\"/zh-CN/学习笔记/java-web工程\"},{\"text\":\"java相关\",\"link\":\"/zh-CN/学习笔记/java相关\"},{\"text\":\"java高级特性\",\"link\":\"/zh-CN/学习笔记/java高级特性\"},{\"text\":\"jdbc\",\"link\":\"/zh-CN/学习笔记/jdbc\"},{\"text\":\"linux\",\"link\":\"/zh-CN/学习笔记/linux\"},{\"text\":\"mybatis\",\"link\":\"/zh-CN/学习笔记/mybatis\"},{\"text\":\"myxml\",\"link\":\"/zh-CN/学习笔记/myxml\"},{\"text\":\"nginx简介\",\"link\":\"/zh-CN/学习笔记/nginx简介\"},{\"text\":\"Redis\",\"link\":\"/zh-CN/学习笔记/Redis\"},{\"text\":\"shell编程\",\"link\":\"/zh-CN/学习笔记/shell编程\"},{\"text\":\"socket tcp udp\",\"link\":\"/zh-CN/学习笔记/socket tcp udp\"},{\"text\":\"Spring Boot\",\"link\":\"/zh-CN/学习笔记/Spring Boot\"},{\"text\":\"spring mvc 多线程并发\",\"link\":\"/zh-CN/学习笔记/spring mvc 多线程并发\"},{\"text\":\"SpringBoot\",\"link\":\"/zh-CN/学习笔记/SpringBoot\"},{\"text\":\"springmvc的配置：\",\"link\":\"/zh-CN/学习笔记/springmvc的配置：\"},{\"text\":\"spring定时任务\",\"link\":\"/zh-CN/学习笔记/spring定时任务\"},{\"text\":\"spring简介\",\"link\":\"/zh-CN/学习笔记/spring简介\"},{\"text\":\"Swagger\",\"link\":\"/zh-CN/学习笔记/Swagger\"},{\"text\":\"web.xml\",\"link\":\"/zh-CN/学习笔记/web.xml\"},{\"text\":\"Zookeeper\",\"link\":\"/zh-CN/学习笔记/Zookeeper\"},{\"text\":\"二期\",\"link\":\"/zh-CN/学习笔记/二期\"},{\"text\":\"代理模式\",\"link\":\"/zh-CN/学习笔记/代理模式\"},{\"text\":\"使用Heritrix 爬取网络资源\",\"link\":\"/zh-CN/学习笔记/使用Heritrix 爬取网络资源\"},{\"text\":\"分布式微服务架构原理\",\"link\":\"/zh-CN/学习笔记/分布式微服务架构原理\"},{\"text\":\"分布式搜索框架ES\",\"link\":\"/zh-CN/学习笔记/分布式搜索框架ES\"},{\"text\":\"分布式消息队列kafka\",\"link\":\"/zh-CN/学习笔记/分布式消息队列kafka\"},{\"text\":\"四大金刚\",\"link\":\"/zh-CN/学习笔记/四大金刚\"},{\"text\":\"在JS中获取文件点之后的后缀字符\",\"link\":\"/zh-CN/学习笔记/在JS中获取文件点之后的后缀字符\"},{\"text\":\"大数据\",\"link\":\"/zh-CN/学习笔记/大数据\"},{\"text\":\"排序\",\"link\":\"/zh-CN/学习笔记/排序\"},{\"text\":\"获取行政区范围\",\"link\":\"/zh-CN/学习笔记/获取行政区范围\"},{\"text\":\"菱形\",\"link\":\"/zh-CN/学习笔记/菱形\"},{\"text\":\"进程和线程的区别：\",\"link\":\"/zh-CN/学习笔记/进程和线程的区别：\"},{\"text\":\"零XML配置ss\",\"link\":\"/zh-CN/学习笔记/零XML配置ss\"},{\"text\":\"零配置ssm框架整合\",\"link\":\"/zh-CN/学习笔记/零配置ssm框架整合\"},{\"text\":\"面试经验\",\"link\":\"/zh-CN/学习笔记/面试经验\"}]}],\"/zh-CN/docs/工作笔记/\":[{\"text\":\"工作笔记\",\"collapsed\":true,\"items\":[{\"text\":\"ad-grid按无、符号、数字、字母、中文排序\",\"link\":\"/zh-CN/工作笔记/ad-grid按无、符号、数字、字母、中文排序\"},{\"text\":\"CodeMirror\",\"link\":\"/zh-CN/工作笔记/CodeMirror\"},{\"text\":\"content图标库\",\"link\":\"/zh-CN/工作笔记/content图标库\"},{\"text\":\"CSS常用操作\",\"link\":\"/zh-CN/工作笔记/CSS常用操作\"},{\"text\":\"CSS酷炫实现\",\"link\":\"/zh-CN/工作笔记/CSS酷炫实现\"},{\"text\":\"Docker\",\"link\":\"/zh-CN/工作笔记/Docker\"},{\"text\":\"dumi\",\"link\":\"/zh-CN/工作笔记/dumi\"},{\"text\":\"easy-ui常用操作\",\"link\":\"/zh-CN/工作笔记/easy-ui常用操作\"},{\"text\":\"ES6多继承\",\"link\":\"/zh-CN/工作笔记/ES6多继承\"},{\"text\":\"idea设置教程\",\"link\":\"/zh-CN/工作笔记/idea设置教程\"},{\"text\":\"iframe跨域\",\"link\":\"/zh-CN/工作笔记/iframe跨域\"},{\"text\":\"JavaUtils\",\"link\":\"/zh-CN/工作笔记/JavaUtils\"},{\"text\":\"java常用操作\",\"link\":\"/zh-CN/工作笔记/java常用操作\"},{\"text\":\"js常用操作\",\"link\":\"/zh-CN/工作笔记/js常用操作\"},{\"text\":\"js生成树\",\"link\":\"/zh-CN/工作笔记/js生成树\"},{\"text\":\"less\",\"link\":\"/zh-CN/工作笔记/less\"},{\"text\":\"listary集成everything\",\"link\":\"/zh-CN/工作笔记/listary集成everything\"},{\"text\":\"lodash\",\"link\":\"/zh-CN/工作笔记/lodash\"},{\"text\":\"mock示例\",\"link\":\"/zh-CN/工作笔记/mock示例\"},{\"text\":\"nginx不缓存设置\",\"link\":\"/zh-CN/工作笔记/nginx不缓存设置\"},{\"text\":\"nginx正则取反\",\"link\":\"/zh-CN/工作笔记/nginx正则取反\"},{\"text\":\"NodeJs和WebPack\",\"link\":\"/zh-CN/工作笔记/NodeJs和WebPack\"},{\"text\":\"React常用操作\",\"link\":\"/zh-CN/工作笔记/React常用操作\"},{\"text\":\"React高级\",\"link\":\"/zh-CN/工作笔记/React高级\"},{\"text\":\"samba\",\"link\":\"/zh-CN/工作笔记/samba\"},{\"text\":\"Sql相关\",\"link\":\"/zh-CN/工作笔记/Sql相关\"},{\"text\":\"umi2_pnpm\",\"link\":\"/zh-CN/工作笔记/umi2_pnpm\"},{\"text\":\"VideoCommon\",\"link\":\"/zh-CN/工作笔记/VideoCommon\"},{\"text\":\"VSCode\",\"link\":\"/zh-CN/工作笔记/VSCode\"},{\"text\":\"Webpack代码混淆\",\"link\":\"/zh-CN/工作笔记/Webpack代码混淆\"},{\"text\":\"WebSocket\",\"link\":\"/zh-CN/工作笔记/WebSocket\"},{\"text\":\"windows常用操作\",\"link\":\"/zh-CN/工作笔记/windows常用操作\"},{\"text\":\"创建offer\",\"link\":\"/zh-CN/工作笔记/创建offer\"},{\"text\":\"前端开发环境部署\",\"link\":\"/zh-CN/工作笔记/前端开发环境部署\"},{\"text\":\"加密解密\",\"link\":\"/zh-CN/工作笔记/加密解密\"},{\"text\":\"叉号\",\"link\":\"/zh-CN/工作笔记/叉号\"},{\"text\":\"双击处理\",\"link\":\"/zh-CN/工作笔记/双击处理\"},{\"text\":\"向量叉乘\",\"link\":\"/zh-CN/工作笔记/向量叉乘\"},{\"text\":\"响应系统的作用与实现\",\"link\":\"/zh-CN/工作笔记/响应系统的作用与实现\"},{\"text\":\"奇偶岸边\",\"link\":\"/zh-CN/工作笔记/奇偶岸边\"},{\"text\":\"安装\",\"link\":\"/zh-CN/工作笔记/安装\"},{\"text\":\"排序和树\",\"link\":\"/zh-CN/工作笔记/排序和树\"},{\"text\":\"文件下载\",\"link\":\"/zh-CN/工作笔记/文件下载\"},{\"text\":\"渲染器和Diff算法\",\"link\":\"/zh-CN/工作笔记/渲染器和Diff算法\"},{\"text\":\"生成饼状图\",\"link\":\"/zh-CN/工作笔记/生成饼状图\"}]}],\"/zh-CN/docs/记录笔记/\":[{\"text\":\"记录笔记\",\"collapsed\":true,\"items\":[]}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}],\"search\":{\"provider\":\"local\",\"options\":{\"locales\":{\"zh-CN\":{\"translations\":{\"button\":{\"buttonText\":\"搜索\",\"buttonAriaLabel\":\"搜索文档\"},\"modal\":{\"displayDetails\":\"显示详细列表\",\"noResultsText\":\"无法找到相关结果\",\"resetButtonTitle\":\"清除查询结果\",\"footer\":{\"selectText\":\"选择\",\"navigateText\":\"切换\",\"closeText\":\"关闭\"}}}}}}}}},\"en-US\":{\"label\":\"English\",\"lang\":\"en-US\",\"link\":\"/\",\"description\":\"思维垃圾\",\"title\":\"v123ve\",\"themeConfig\":{\"darkModeSwitchLabel\":\"Theme\",\"docFooter\":{\"prev\":\"Previous page\",\"next\":\"Next page\"},\"lastUpdatedText\":\"Last updated\",\"nav\":[{\"text\":\"Home\",\"link\":\"/\"}],\"outline\":{\"level\":[2,6],\"label\":\"List\"},\"returnToTopLabel\":\"Return to the top\",\"sidebarMenuLabel\":\"Menu\",\"sidebar\":{\"/en-US/\":[]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]}}},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>

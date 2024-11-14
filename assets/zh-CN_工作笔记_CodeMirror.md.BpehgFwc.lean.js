@@ -1,0 +1,82 @@
+import{_ as s,c as a,a3 as p,o as e}from"./chunks/framework.BaR4VHXY.js";const u=JSON.parse('{"title":"CodeMirror","description":"","frontmatter":{"Created at":"2020-09-09T00:00:00.000Z","Last updated at":"2020-09-11T00:00:00.000Z","tags":["CodeMirror"]},"headers":[],"relativePath":"zh-CN/工作笔记/CodeMirror.md","filePath":"zh-CN/工作笔记/CodeMirror.md","lastUpdated":null}'),r={name:"zh-CN/工作笔记/CodeMirror.md"};function o(i,n,l,t,c,d){return e(),a("div",null,n[0]||(n[0]=[p(`<h1 id="codemirror" tabindex="-1">CodeMirror <a class="header-anchor" href="#codemirror" aria-label="Permalink to &quot;CodeMirror&quot;">​</a></h1><h2 id="codemirror-1" tabindex="-1">CodeMirror <a class="header-anchor" href="#codemirror-1" aria-label="Permalink to &quot;CodeMirror&quot;">​</a></h2><p><code>npm install react-codemirror2 codemirror --save</code><code>import { CodeEditor } from &#39;securityui&#39;</code></p><h2 id="codemirror-事件" tabindex="-1">CodeMirror 事件 <a class="header-anchor" href="#codemirror-事件" aria-label="Permalink to &quot;CodeMirror 事件&quot;">​</a></h2><p>1.onChange(editor, data, value)：文本被修改后触发</p><p>2.onBeforeChange(editor, data, value):内容改变前被调用</p><p>3.onCursorActivity(editor)：当鼠标点击内容区、选中内容、修改内容时被触发</p><p>4.onKeyHandled:(editor,name,event):当一个都dom元素的事件触发时调用，name为操作名称。</p><p>5.onInputRead(editor,data):当一个新的input从隐藏的textara读取出时调用</p><p>6.onBeforeSelectionChange(editor,data):当选中的区域被改变时调用</p><p>7.onUpdate(editor):编辑器内容被改变时触发</p><p>8.onFocus(editor):编辑器获得焦点式触发</p><p>9.onBlur(editor):编辑器失去焦点时触发</p><h2 id="codemirror-常用方法" tabindex="-1">CodeMirror 常用方法 <a class="header-anchor" href="#codemirror-常用方法" aria-label="Permalink to &quot;CodeMirror 常用方法&quot;">​</a></h2><p>getValue():获取编辑器文本内容</p><p>setValue(text):设置编辑器文本内容</p><p>getRange({line,ch},{line,ch}):获取指定范围内的文本内容第一个对象是起始坐标，第二个是结束坐标</p><p>replaceRange(replaceStr,{line,ch},{line,ch}):替换指定区域的内容</p><p>getLine(line)：获取指定行的文本内容</p><p>lineCount():统计编辑器内容行数</p><p>firstLine():获取第一行行数，默认为0，从开始计数</p><p>lastLine():获取最后一行行数</p><p>getLineHandle(line):根据行号获取行句柄</p><p>getSelection():获取鼠标选中区域的代码</p><p>replaceSelection(str):替换选中区域的代码</p><p>setSelection({line:num,ch:num1},{line:num2,ch:num3}):设置一个区域被选中</p><p>somethingSelected()：判断是否被选择</p><p>getEditor()：获取CodeMirror对像</p><p>undo()：撤销</p><p>redo():回退</p><h2 id="组件" tabindex="-1">组件 <a class="header-anchor" href="#组件" aria-label="Permalink to &quot;组件&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import React, {Component} from &#39;react&#39;;</span></span>
+<span class="line"><span>    import {UnControlled as CodeMirror} from &#39;react-codemirror2&#39;</span></span>
+<span class="line"><span>    // 核心js,css文件</span></span>
+<span class="line"><span>    import &#39;codemirror/lib/codemirror.js&#39;</span></span>
+<span class="line"><span>    import &#39;codemirror/lib/codemirror.css&#39;;</span></span>
+<span class="line"><span>    // 主题风格-亮色</span></span>
+<span class="line"><span>    import &#39;codemirror/theme/neo.css&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/theme/neat.css&#39;;</span></span>
+<span class="line"><span>    // 代码模式</span></span>
+<span class="line"><span>    import &#39;codemirror/mode/css/css&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/mode/htmlmixed/htmlmixed&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/mode/javascript/javascript&#39;;</span></span>
+<span class="line"><span>    // ctrl+空格代码提示补全</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/hint/show-hint.css&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/hint/show-hint&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/hint/anyword-hint.js&#39;;</span></span>
+<span class="line"><span>    // 代码高亮</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/selection/active-line&#39;;</span></span>
+<span class="line"><span>    // 折叠代码</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/fold/foldgutter.css&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/fold/foldcode.js&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/fold/foldgutter.js&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/fold/brace-fold.js&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/fold/comment-fold.js&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/edit/closebrackets&#39;;</span></span>
+<span class="line"><span>    import &#39;codemirror/addon/edit/matchBrackets&#39;;</span></span>
+<span class="line"><span>    // 修改样式</span></span>
+<span class="line"><span>    import &#39;./style.less&#39;;</span></span>
+<span class="line"><span>    </span></span>
+<span class="line"><span>    /**</span></span>
+<span class="line"><span>     * 代码编辑组件</span></span>
+<span class="line"><span>     */</span></span>
+<span class="line"><span>    export class CodeEditor extends Component {</span></span>
+<span class="line"><span>      render() {</span></span>
+<span class="line"><span>        const {value, getCodeEditor} = this.props;</span></span>
+<span class="line"><span>        return (</span></span>
+<span class="line"><span>          &lt;div className=&#39;codeEditor&#39;&gt;</span></span>
+<span class="line"><span>            &lt;CodeMirror</span></span>
+<span class="line"><span>              {...this.props}</span></span>
+<span class="line"><span>              value={value}</span></span>
+<span class="line"><span>              options={{</span></span>
+<span class="line"><span>                // 主题</span></span>
+<span class="line"><span>                // theme: &#39;neat&#39;,</span></span>
+<span class="line"><span>                // 运行模式</span></span>
+<span class="line"><span>                mode: &#39;htmlmixed&#39;,</span></span>
+<span class="line"><span>                // 自动获取焦点</span></span>
+<span class="line"><span>                autofocus: true,</span></span>
+<span class="line"><span>                // 显示行号</span></span>
+<span class="line"><span>                lineNumbers: true,</span></span>
+<span class="line"><span>                // 自动缩进</span></span>
+<span class="line"><span>                smartIndent: true,</span></span>
+<span class="line"><span>                // 括号匹配，光标旁边的括号都高亮显示</span></span>
+<span class="line"><span>                matchBrackets: true,</span></span>
+<span class="line"><span>                // 光标行代码高亮</span></span>
+<span class="line"><span>                styleActiveLine: true,</span></span>
+<span class="line"><span>                // 键入时将自动关闭()[]{}&#39;&#39;&quot;&quot;</span></span>
+<span class="line"><span>                autoCloseBrackets: true,</span></span>
+<span class="line"><span>                // start-代码折叠</span></span>
+<span class="line"><span>                lineWrapping: true,</span></span>
+<span class="line"><span>                foldGutter: true,</span></span>
+<span class="line"><span>                gutters: [&#39;CodeMirror-linenumbers&#39;, &#39;CodeMirror-foldgutter&#39;],</span></span>
+<span class="line"><span>                // end-代码折叠</span></span>
+<span class="line"><span>                extraKeys: {</span></span>
+<span class="line"><span>                  &quot;Ctrl&quot;: &quot;autocomplete&quot;,</span></span>
+<span class="line"><span>                  &quot;Ctrl-S&quot;: function (editor) {</span></span>
+<span class="line"><span>                  },</span></span>
+<span class="line"><span>                  &quot;Ctrl-Z&quot;: function (editor) {</span></span>
+<span class="line"><span>                    editor.undo();</span></span>
+<span class="line"><span>                  },</span></span>
+<span class="line"><span>                  &quot;F8&quot;: function (editor) {</span></span>
+<span class="line"><span>                    editor.redo();</span></span>
+<span class="line"><span>                  },</span></span>
+<span class="line"><span>                },</span></span>
+<span class="line"><span>              }}</span></span>
+<span class="line"><span>              editorDidMount={editor =&gt; {</span></span>
+<span class="line"><span>                if (getCodeEditor) getCodeEditor(editor)</span></span>
+<span class="line"><span>              }}</span></span>
+<span class="line"><span>            /&gt;</span></span>
+<span class="line"><span>          &lt;/div&gt;</span></span>
+<span class="line"><span>        );</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    };</span></span></code></pre></div>`,32)]))}const h=s(r,[["render",o]]);export{u as __pageData,h as default};
