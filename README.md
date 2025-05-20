@@ -1,7 +1,7 @@
 > [!TIP]
 > 主题作者：[imsyy/vitepress-theme-curve](https://github.com/imsyy/vitepress-theme-curve)
 
-Preview: 👻 [思维垃圾](https://v123ve.github.io)
+Preview: 👻 [思维垃圾](http://vitepress.v123ve.xyz)
 
 Docs: 📖 [主题文档](https://blog.imsyy.top/pages/categories/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3)
 

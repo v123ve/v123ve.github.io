@@ -26,7 +26,7 @@ var init_themeConfig = __esm({
         // 站点logo
         logo: "/images/logo/logo.webp",
         // 站点地址
-        site: "https://v123ve.github.io",
+        site: "http://vitepress.v123ve.xyz",
         // 语言
         lang: "zh-CN",
         // 作者
@@ -34,7 +34,7 @@ var init_themeConfig = __esm({
           name: "v123ve",
           cover: "/images/logo/logo.webp",
           email: "hsyv123ve@gmail.com",
-          link: "https://v123ve.github.io"
+          link: "http://vitepress.v123ve.xyz"
         }
       },
       // 备案信息
@@ -230,7 +230,7 @@ var init_themeConfig = __esm({
           },
           {
             icon: "github",
-            link: "https://v123ve.github.io"
+            link: "http://vitepress.v123ve.xyz"
           },
           {
             icon: "telegram",

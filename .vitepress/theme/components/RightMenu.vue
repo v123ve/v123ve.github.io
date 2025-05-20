@@ -347,7 +347,7 @@ const rightMenuFunc = async (type) => {
         window.open(clickedTypeData.value?.href);
         break;
       case "copy-link":
-        const pageLink = "https://v123ve.github.io" + router.route.path;
+        const pageLink = "http://vitepress.v123ve.xyz" + router.route.path;
         if (pageLink) copyText(pageLink);
         break;
       case "input-paste":
