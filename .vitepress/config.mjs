@@ -24,7 +24,7 @@ const themeConfig = await getThemeConfig();
 const isGitHubPages = process.env.GITHUB_PAGES === 'true' || false;
 
 // 根据环境或站点动态设置 base 路径
-const basePath = isGitHubPages ? '/v123ve.github.io/' : '/';
+const basePath = isGitHubPages ? '/' : '/';
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(

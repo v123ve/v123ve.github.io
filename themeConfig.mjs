@@ -1,4 +1,4 @@
-const basePath = process.env.GITHUB_PAGES === "true" ? "/v123ve.github.io/" : "";
+const basePath = process.env.GITHUB_PAGES === "true" ? "" : "";
 // 主题配置
 export const themeConfig = {
   // 站点信息

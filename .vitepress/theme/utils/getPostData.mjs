@@ -46,7 +46,7 @@ const comparePostPriority = (a, b) => {
  */
 export const getAllPosts = async () => {
   try {
-    const basePath = process.env.GITHUB_PAGES === "true" ? "/v123ve.github.io/" : "";
+    const basePath = process.env.GITHUB_PAGES === "true" ? "" : "";
     // 获取所有 Markdown 文件的路径
     let paths = await getPostMDFilePaths();
     // 读取和处理每个 Markdown 文件的内容
