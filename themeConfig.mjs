@@ -1,7 +1,10 @@
+const basePath = process.env.GITHUB_PAGES === "true" ? "/v123ve.github.io/" : "";
 // 主题配置
 export const themeConfig = {
   // 站点信息
   siteMeta: {
+    // 是否是 GitHub Pages 部署
+    basePath: basePath,
     // 站点标题
     title: "v123ve",
     // 站点描述
@@ -31,7 +34,7 @@ export const themeConfig = {
     // 头部
     header: [
       // favicon
-      ["link", { rel: "icon", href: "/favicon.ico" }],
+      ["link", { rel: "icon", href: basePath + "/favicon.ico" }],
       // RSS
       // [
       //   "link",
@@ -112,32 +115,32 @@ export const themeConfig = {
     {
       text: "文库",
       items: [
-        { text: "文章列表", link: "/pages/archives", icon: "article" },
-        { text: "全部分类", link: "/pages/categories", icon: "folder" },
-        { text: "全部标签", link: "/pages/tags", icon: "hashtag" },
+        { text: "文章列表", link: basePath + "/pages/archives", icon: "article" },
+        { text: "全部分类", link: basePath + "/pages/categories", icon: "folder" },
+        { text: "全部标签", link: basePath + "/pages/tags", icon: "hashtag" },
       ],
     },
     {
       text: "专栏",
       items: [
-        { text: "技术分享", link: "/pages/project", icon: "technical" },
-        { text: "我的项目", link: "/pages/project", icon: "code" },
-        { text: "效率工具", link: "/pages/project", icon: "tools" },
+        { text: "技术分享", link: basePath + "/pages/project", icon: "technical" },
+        { text: "我的项目", link: basePath + "/pages/project", icon: "code" },
+        { text: "效率工具", link: basePath + "/pages/project", icon: "tools" },
       ],
     },
     {
       text: "友链",
       items: [
-        { text: "友链鱼塘", link: "/pages/project", icon: "fish" },
-        { text: "友情链接", link: "/pages/project", icon: "people" },
+        { text: "友链鱼塘", link: basePath + "/pages/project", icon: "fish" },
+        { text: "友情链接", link: basePath + "/pages/project", icon: "people" },
       ],
     },
     {
       text: "我的",
       items: [
-        { text: "畅所欲言", link: "/pages/project", icon: "chat" },
-        { text: "致谢名单", link: "/pages/project", icon: "reward" },
-        { text: "关于本站", link: "/pages/about", icon: "contacts" },
+        { text: "畅所欲言", link: basePath + "/pages/project", icon: "chat" },
+        { text: "致谢名单", link: basePath + "/pages/project", icon: "reward" },
+        { text: "关于本站", link: basePath + "/pages/about", icon: "contacts" },
       ],
     },
   ],
@@ -209,7 +212,7 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "/pages/about",
+        link: basePath + "/pages/about",
       },
       {
         icon: "github",
@@ -217,19 +220,19 @@ export const themeConfig = {
       },
       {
         icon: "telegram",
-        link: "/pages/about",
+        link: basePath + "/pages/about",
       },
       {
         icon: "bilibili",
-        link: "/pages/about",
+        link: basePath + "/pages/about",
       },
       {
         icon: "qq",
-        link: "/pages/about",
+        link: basePath + "/pages/about",
       },
       {
         icon: "twitter-x",
-        link: "/pages/about",
+        link: basePath + "/pages/about",
       },
     ],
     // sitemap
@@ -237,31 +240,31 @@ export const themeConfig = {
       {
         text: "博客",
         items: [
-          { text: "近期文章", link: "/" },
-          { text: "全部分类", link: "/pages/categories" },
-          { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives", newTab: true },
+          { text: "近期文章", link: basePath + "/" },
+          { text: "全部分类", link: basePath + "/pages/categories" },
+          { text: "全部标签", link: basePath + "/pages/tags" },
+          { text: "文章归档", link: basePath + "/pages/archives", newTab: true },
         ],
       },
       {
         text: "项目",
-        items: [{ text: "本站", link: "/", newTab: true }],
+        items: [{ text: "本站", link: basePath + "/", newTab: true }],
       },
       {
         text: "专栏",
         items: [
-          { text: "技术分享", link: "/pages/categories/技术分享" },
-          { text: "我的项目", link: "/pages/project" },
-          { text: "效率工具", link: "/pages/project" },
+          { text: "技术分享", link: basePath + "/pages/categories/技术分享" },
+          { text: "我的项目", link: basePath + "/pages/project" },
+          { text: "效率工具", link: basePath + "/pages/project" },
         ],
       },
       {
         text: "页面",
         items: [
-          { text: "畅所欲言", link: "/pages/project" },
-          { text: "关于本站", link: "/pages/about" },
-          { text: "隐私政策", link: "/pages/privacy" },
-          { text: "版权协议", link: "/pages/cc" },
+          { text: "畅所欲言", link: basePath + "/pages/project" },
+          { text: "关于本站", link: basePath + "/pages/about" },
+          { text: "隐私政策", link: basePath + "/pages/privacy" },
+          { text: "版权协议", link: basePath + "/pages/cc" },
         ],
       },
       {

@@ -46,6 +46,7 @@ const comparePostPriority = (a, b) => {
  */
 export const getAllPosts = async () => {
   try {
+    const basePath = process.env.GITHUB_PAGES === "true" ? "/v123ve.github.io/" : "";
     // 获取所有 Markdown 文件的路径
     let paths = await getPostMDFilePaths();
     // 读取和处理每个 Markdown 文件的内容
@@ -75,7 +76,7 @@ export const getAllPosts = async () => {
             tags,
             categories,
             description,
-            regularPath: `/${item.replace(".md", ".html")}`,
+            regularPath: `${basePath}/${item.replace(".md", ".html")}`,
             top,
             cover,
           };
@@ -173,7 +174,7 @@ export const getAllArchives = (postData) => {
     // 检查是否有 date 属性
     if (item.date) {
       // 从路径中提取文件名
-      item.title = item.regularPath.split('/').pop().replace('.html', '');
+      item.title = item.regularPath.split("/").pop().replace(".html", "");
       // 将时间戳转换为日期对象
       const date = new Date(item.lastModified);
       // 获取年份
