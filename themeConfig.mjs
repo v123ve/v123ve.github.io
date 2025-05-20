@@ -296,10 +296,10 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
-    type: "artalk",
+    type: "twikoo",
     // artalk
     // https://artalk.js.org/
     artalk: {
@@ -311,7 +311,7 @@ export const themeConfig = {
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
       js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "",
+      envId: "https://twikoo.v123ve.xyz/",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
       region: "ap-shanghai",
       lang: "zh-CN",
@@ -360,9 +360,9 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://meting-api-omega.vercel.app/api",
     // id
     id: 9379831714,
     // netease / tencent / kugou
@@ -373,9 +373,9 @@ export const themeConfig = {
   // 搜索
   // https://www.algolia.com/
   search: {
-    enable: false,
-    appId: "",
-    apiKey: "",
+    enable: true,
+    appId: "I4GDX3K25T",
+    apiKey: "9d9ca546eb54e9ba31b2052ee8d61ef5",
   },
   // 打赏
   rewardData: {
