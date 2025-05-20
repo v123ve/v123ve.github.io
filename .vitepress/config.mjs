@@ -20,9 +20,16 @@ const postData = await getAllPosts();
 // 获取主题配置
 const themeConfig = await getThemeConfig();
 
+// 判断当前站点是否是 GitHub Pages 部署
+const isGitHubPages = process.env.GITHUB_PAGES === 'true' || false;
+
+// 根据环境或站点动态设置 base 路径
+const basePath = isGitHubPages ? '/v123ve.github.io/' : '/';
+
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
+    base: basePath,
     title: themeConfig.siteMeta.title,
     description: themeConfig.siteMeta.description,
     lang: themeConfig.siteMeta.lang,
