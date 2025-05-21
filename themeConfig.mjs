@@ -374,8 +374,9 @@ export const themeConfig = {
   // https://www.algolia.com/
   search: {
     enable: true,
-    appId: "I4GDX3K25T",
-    apiKey: "9d9ca546eb54e9ba31b2052ee8d61ef5",
+    appId: "BAPXFNBG8G",
+    apiKey: "20a731b71e4086e740a2b01b12cc1f2d",
+    indexName: "vitepress-v123ve",
   },
   // 打赏
   rewardData: {
