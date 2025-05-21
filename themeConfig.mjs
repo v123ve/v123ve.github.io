@@ -108,6 +108,18 @@ export const themeConfig = {
           crossorigin: "",
         },
       ],
+      // 预载 live2d
+      ["script", { src: "/third/live2d.js" }],
+      // 预载 鼠标点击效果
+      ["script", { src: "/third/fireworks.js" }],
+      ["script", { src: "/third/anime.min.js" }],
+      // 预载 jquery
+      ["script", { src: "/third/jquery.min.js" }],
+      // 预载 鼠标移动效果
+      ["script", { src: "/third/mouser/mouser.js" }],
+      // 预载 鼠标鼠标样式与指向 太卡了
+      // ["link", { href: "/third/cursor.css", rel: "stylesheet" }],
+      // ["script", { src: "/third/cursor.js" }],
     ],
   },
   // 导航栏菜单

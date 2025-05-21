@@ -1,7 +1,10 @@
 <template>
   <Teleport to="body">
     <!-- 站点背景 -->
-    <div v-if="backgroundType !== 'close'" :class="['background', backgroundType, themeValue]">
+    <div
+      v-if="backgroundType !== 'close'"
+      :class="['background', { patterns: backgroundType === 'patterns' }, themeValue]"
+    >
       <img
         v-if="backgroundType === 'image'"
         :src="backgroundUrl"
@@ -11,6 +14,11 @@
         @error="coverError"
         @load="coverLoaded"
       />
+      <iframe
+        v-if="backgroundType !== 'image' && backgroundType !== 'patterns'"
+        :src="backgroundType"
+        class="fullscreen-iframe"
+      ></iframe>
     </div>
   </Teleport>
 </template>
@@ -71,6 +79,15 @@ const coverLoaded = (e) => {
     &.loaded {
       opacity: 1;
     }
+  }
+  .fullscreen-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: -1;
   }
 }
 </style>

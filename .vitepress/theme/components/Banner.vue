@@ -3,9 +3,7 @@
     <h1 class="title">你好，欢迎来到{{ theme.siteMeta.title }}</h1>
     <div class="subtitle">
       <Transition name="fade" mode="out-in">
-        <span :key="hitokotoData?.hitokoto" class="text">
-          {{ hitokotoData?.hitokoto ? hitokotoData?.hitokoto : theme.siteMeta.description }}
-        </span>
+        <span id="hitokoto" class="text"></span>
       </Transition>
     </div>
     <Transition name="fade" mode="out-in">
@@ -41,6 +39,7 @@
 </template>
 
 <script setup>
+import Typed from "typed.js";
 import { mainStore } from "@/store";
 import { getHitokoto } from "@/api";
 
@@ -79,7 +78,6 @@ const props = defineProps({
   },
 });
 
-const hitokotoData = ref(null);
 const hitokotoTimeOut = ref(null);
 
 // banner
@@ -87,13 +85,23 @@ const bannerType = ref(null);
 
 // 获取一言数据
 const getHitokotoData = async () => {
+  let showText = theme.value.siteMeta.description;
   try {
     const result = await getHitokoto();
     const { hitokoto, from, from_who } = result;
-    hitokotoData.value = { hitokoto, from, from_who };
+    showText = hitokoto;
   } catch (error) {
     $message.error("一言获取失败");
     console.error("一言获取失败：", error);
+  } finally {
+    new Typed("#hitokoto", {
+      strings: [showText + "^1000"],
+      typeSpeed: 150,
+      showCursor: true,
+      cursorChar: "_🌟",
+      loop: true,
+      loopCount: 200,
+    });
   }
 };
 
@@ -154,6 +162,8 @@ onBeforeUnmount(() => {
     font-size: 2.75rem;
   }
   .subtitle {
+    display: flex;
+    justify-content: center;
     width: 80%;
     font-size: 1.25rem;
     opacity: 0.8;

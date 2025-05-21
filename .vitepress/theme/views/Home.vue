@@ -1,6 +1,7 @@
 <!-- 首页 -->
 <template>
   <div class="home">
+    <CanvasConfetti />
     <Banner v-if="showHeader" :height="store.bannerType" />
     <div class="home-content">
       <div class="posts-content">

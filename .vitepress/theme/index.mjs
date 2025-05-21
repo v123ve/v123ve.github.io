@@ -2,8 +2,10 @@ import { h } from "vue";
 import { createPinia } from "pinia";
 import { routeChange } from "@/utils/initTools.mjs";
 import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client";
-import LazyLoader from "@/components/LazyLoader.vue";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
+import useLive2d from "@/components/Live2d";
+import LazyLoader from "@/components/LazyLoader.vue";
+import CanvasConfetti from "@/components/CanvasConfetti.vue";
 
 // 根组件
 import App from "@/App.vue";
@@ -28,6 +30,7 @@ const Theme = {
     app.use(pinia);
     app.use(InstantSearch);
     app.component("LazyLoader", LazyLoader);
+    app.component("CanvasConfetti", CanvasConfetti);
     // 插件
     enhanceAppWithTabs(app);
     // 路由守卫
@@ -37,6 +40,9 @@ const Theme = {
     router.onAfterRouteChanged = (to) => {
       routeChange("after", to);
     };
+  },
+  setup() {
+    useLive2d();
   },
 };
 
