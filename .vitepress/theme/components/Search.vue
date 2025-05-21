@@ -12,7 +12,7 @@
       :future="{
         preserveSharedStateOnUnmount: true,
       }"
-      index-name="v123ve"
+      index-name="vitepress-v123ve"
       @state-change="searchChange"
     >
       <ais-configure :hits-per-page.camel="8" />
