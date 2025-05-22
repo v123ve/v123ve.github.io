@@ -1,10 +1,18 @@
 > [!TIP]
 > 主题作者：[imsyy/vitepress-theme-curve](https://github.com/imsyy/vitepress-theme-curve)
+
 > 看板娘代码参考：[xinlei3166/vitepress-theme-website](https://github.com/xinlei3166/vitepress-theme-website)
+
 > 烟花效果代码参考：[烟花效果](https://www.kirilv.com/canvas-confetti)
+
 > 打字机效果代码参考：[打字机效果](https://github.com/mattboldt/typed.js)
+
 > 动态背景效果代码参考：[动态背景效果](https://github.com/cpython666/CoolBgs)
-> 鼠标拖尾效果代码参考(太卡了，已注释)：[鼠标点击爆炸效果](https://github.com/liqingyi123/mouser)
+
+> 鼠标拖尾效果代码参考：[鼠标拖尾效果](https://github.com/cpython666/AwesomeWeb/tree/main/%E6%B8%90%E5%8F%98%E7%BA%BF%E6%9D%A1%E9%BC%A0%E6%A0%87%E6%8B%96%E5%B0%BE)
+
+> 鼠标拖尾特效效果代码参考(太卡了，已注释)：[鼠标拖尾特效效果](https://github.com/liqingyi123/mouser)
+
 > 修改鼠标样式与指向代码参考(太卡了，已注释)：[修改鼠标样式与指向](https://github.com/cpython666/AwesomeWeb/tree/main/%E4%BF%AE%E6%94%B9%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F%E4%B8%8E%E6%8C%87%E5%90%91)
 
 Preview: 👻 [思维垃圾](http://vitepress.v123ve.xyz)

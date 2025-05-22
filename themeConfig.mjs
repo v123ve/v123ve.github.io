@@ -110,13 +110,15 @@ export const themeConfig = {
       ],
       // 预载 live2d
       ["script", { src: "/third/live2d.js" }],
+      // 预载 jquery
+      ["script", { src: "/third/jquery.min.js" }],
       // 预载 鼠标点击效果
       ["script", { src: "/third/fireworks.js" }],
       ["script", { src: "/third/anime.min.js" }],
-      // 预载 jquery
-      ["script", { src: "/third/jquery.min.js" }],
-      // 预载 鼠标移动效果
-      ["script", { src: "/third/mouser/mouser.js" }],
+      // 预载 鼠标拖尾效果
+      ["script", { src: "/third/mouse-trail.js" }],
+      // 预载 鼠标移动效果 太卡了
+      // ["script", { src: "/third/mouser/mouser.js" }],
       // 预载 鼠标鼠标样式与指向 太卡了
       // ["link", { href: "/third/cursor.css", rel: "stylesheet" }],
       // ["script", { src: "/third/cursor.js" }],
@@ -135,9 +137,9 @@ export const themeConfig = {
     {
       text: "专栏",
       items: [
-        { text: "技术分享", link: basePath + "/pages/project", icon: "technical" },
+        { text: "技术分享", link: basePath + "/pages/archives", icon: "technical" },
         { text: "我的项目", link: basePath + "/pages/project", icon: "code" },
-        { text: "效率工具", link: basePath + "/pages/project", icon: "tools" },
+        { text: "效率工具", link: basePath + "/pages/tools", icon: "tools" },
       ],
     },
     {
@@ -228,7 +230,7 @@ export const themeConfig = {
       },
       {
         icon: "github",
-        link: "http://vitepress.v123ve.xyz",
+        link: basePath + "/pages/about",
       },
       {
         icon: "telegram",
@@ -265,9 +267,9 @@ export const themeConfig = {
       {
         text: "专栏",
         items: [
-          { text: "技术分享", link: basePath + "/pages/categories/技术分享" },
+          { text: "技术分享", link: basePath + "/pages/archives" },
           { text: "我的项目", link: basePath + "/pages/project" },
-          { text: "效率工具", link: basePath + "/pages/project" },
+          { text: "效率工具", link: basePath + "/pages/tools" },
         ],
       },
       {
